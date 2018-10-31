@@ -28,8 +28,8 @@ if(isset($_POST['numero'])){
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
-							<i class="dots far fa-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
+							<i class="dots fas fa-circle"></i>
+							<i class="dots far fa-dot-circle"></i><i class="fas fa-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
@@ -65,7 +65,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-tint"></i> Anestesia: Local / General.</li>
 					<li><i class="fas fa-bed"></i> Internación: 6 horas.</li>
 					<li><i class="far fa-file"></i> Recuperación: 2-4 Semanas.</li>
-					<li><i class="fas fa-eye"></i> Efectos: 6 MESES.</li>
+					<li><i class="fas fa-eye"></i> Efectos: 6 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: 10 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: Al 6ºto mes.</li>
 				</ul>			
@@ -227,7 +227,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
 					<li><i class="fas fa-bed"></i> Internación: A convenir según el caso.</li>
 					<li><i class="far fa-file"></i> Recuperación: Al mes.</li>
-					<li><i class="fas fa-eye"></i> Efectos: 3 meses,</li>
+					<li><i class="fas fa-eye"></i> Efectos: 3 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a los 10 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
 				</ul>
@@ -254,7 +254,7 @@ if(isset($_POST['numero'])){
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
-							<i class="dots far fa-circle"></i>
+							<i class="dots fas fa-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
 							<i class="dots far fa-dot-circle"></i>		
 						</div>
@@ -267,7 +267,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
 					<li><i class="fas fa-bed"></i> Internación: Si.</li>
 					<li><i class="far fa-file"></i> Recuperación: Al mes.</li>
-					<li><i class="fas fa-eye"></i> Efectos: 3 meses,</li>
+					<li><i class="fas fa-eye"></i> Efectos: 3 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a los 10 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
 				</ul>
@@ -286,7 +286,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
 					<li><i class="fas fa-bed"></i> Internación: Si.</li>
 					<li><i class="far fa-file"></i> Recuperación: Al mes.</li>
-					<li><i class="fas fa-eye"></i> Efectos: 3 meses,</li>
+					<li><i class="fas fa-eye"></i> Efectos: 3 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a los 10 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
 				</ul>
@@ -309,7 +309,7 @@ if(isset($_POST['numero'])){
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
-							<i class="dots far fa-circle"></i>
+							<i class="dots fas fa-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
@@ -324,7 +324,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
 					<li><i class="fas fa-bed"></i> Internación: A necesidad del paciente.</li>
 					<li><i class="far fa-file"></i> Recuperación: Al mes.</li>
-					<li><i class="fas fa-eye"></i> Efectos: 3 meses,</li>
+					<li><i class="fas fa-eye"></i> Efectos: 3 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a los 10 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
 				</ul>
@@ -347,7 +347,7 @@ if(isset($_POST['numero'])){
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
-							<i class="dots far fa-circle"></i>
+							<i class="dots fas fa-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
 							<i class="dots far fa-dot-circle"></i>
@@ -362,7 +362,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
 					<li><i class="fas fa-bed"></i> Internación: A necesidad del paciente.</li>
 					<li><i class="far fa-file"></i> Recuperación: Al mes.</li>
-					<li><i class="fas fa-eye"></i> Efectos: 3 meses,</li>
+					<li><i class="fas fa-eye"></i> Efectos: 3 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a los 10 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
 				</ul>

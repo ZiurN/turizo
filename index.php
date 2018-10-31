@@ -237,7 +237,7 @@
 				</div>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.987452862388!2d-58.4152626!3d-34.5915954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4733f572db91af1b!2sCirujano+Pl%C3%A1stico+Jos%C3%A9+Miguel+Turizo!5e0!3m2!1ses!2sar!4v1540431563954" frameborder="0" style="border:0" allowfullscreen></iframe>
 				<div class="instagram-titulo"><i class="far fa-envelope"></i> Correo electrónico</div>
-				<p>Para contactarme puedes escribirme y se responde a la mayor brevedad.</p>
+				<p>Para contactar escribe debajo tus datos y nos pondremos en contacto a la brevedad.</p>
 				<form action="" class="enviar-datos">
 					<input class="dato-form" type="text" name="nombre" required><label class="dato-label" for="name">Tu Nombre</label>
 					<input class="dato-form" type="email" name="email" required><label class="dato-label" for="email">Tu Correo</label>
@@ -261,7 +261,7 @@
 					<img src="https://instagram.faep8-2.fna.fbcdn.net/vp/49fcbedd3d7d6a452df4e4ac004e9e8f/5C48EDB4/t51.2885-19/s150x150/42003610_280616479329116_46582811565490176_n.jpg" alt="">
 				</div>	
 				<div class="formacion-seccion-texto">
-				<p>El Dr. José Miguel Turizo Torres nació en Agustín Codazzi, Cesar Colombia en el año 1984.</p>
+				<p>El Dr. José Miguel Turizo Torres, nació en Agustín Codazzi, municipio localizado al noroeste de Colombia en el Departamento del Cesar.</p>
 				<p>Sus padres, Francisco José Turizo (Docente) y Yellys María Torres (Docente), son quienes inculcaron la responsabilidad y disciplina para llevar a cabo las cosas en la vida.</p>
 				</div>
 			  

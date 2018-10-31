@@ -353,12 +353,12 @@ function init(){
 				x[i].style.display = "none";
 			}
 			for (i = 0; i < dots.length; i++) {
-				dots[i].classList.remove('fa-dot-circle');
-				dots[i].classList.add('fa-circle');
+				dots[i].classList.remove('far');
+				dots[i].classList.add('fas');
 			}
 			x[slideIndex - 1].style.display = "block";
-			dots[slideIndex - 1].classList.remove('fa-circle');
-			dots[slideIndex - 1].classList.add('fa-dot-circle');
+			dots[slideIndex - 1].classList.remove('fas');
+			dots[slideIndex - 1].classList.add('far');
 		}
 
 		}
