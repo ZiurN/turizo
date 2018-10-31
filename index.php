@@ -229,7 +229,7 @@
 					</div>
 				</div>
 				<div class="redes-texto whatsapp">
-					<a href="https://api.whatsapp.com/send?phone=1166453915"><i class="fab fa-whatsapp"></i>&nbsp;whatsapp<br><br>wa.me/1166453915</a>
+					<a href="https://api.whatsapp.com/send?phone=541166453915"><i class="fab fa-whatsapp"></i>&nbsp;whatsapp<br><br>wa.me/1166453915</a>
 				</div>
 				<br>
 				<div class="instagram-titulo">
@@ -261,7 +261,7 @@
 					<img src="https://instagram.faep8-2.fna.fbcdn.net/vp/49fcbedd3d7d6a452df4e4ac004e9e8f/5C48EDB4/t51.2885-19/s150x150/42003610_280616479329116_46582811565490176_n.jpg" alt="">
 				</div>	
 				<div class="formacion-seccion-texto">
-				<p>El Dr. José Miguel Turizo Torres, nació en Agustín Codazzi, municipio localizado al noroeste de Colombia en el Departamento del Cesar.</p>
+				<p>El Dr. José Miguel Turizo Torres, nació en Agustín Codazzi, municipio localizado al noreste de Colombia en el Departamento del Cesar.</p>
 				<p>Sus padres, Francisco José Turizo (Docente) y Yellys María Torres (Docente), son quienes inculcaron la responsabilidad y disciplina para llevar a cabo las cosas en la vida.</p>
 				</div>
 			  
