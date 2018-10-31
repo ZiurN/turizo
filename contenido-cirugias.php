@@ -29,11 +29,11 @@ if(isset($_POST['numero'])){
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
 							<i class="dots fas fa-circle"></i>
-							<i class="dots far fa-dot-circle"></i><i class="fas fa-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
+							<i class="dots far fa-circle"></i><i class="fas fa-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
 						</div>
 						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
 					</div>
@@ -179,10 +179,10 @@ if(isset($_POST['numero'])){
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 4-8 Horas.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local y/ Anestesia General.</li>
-					<li><i class="fas fa-bed"></i> Internación: No.</li>
+					<li><i class="fas fa-bed"></i> Internación: Si.</li>
 					<li><i class="far fa-file"></i> Recuperación: 2 semanas.</li>
 					<li><i class="fas fa-eye"></i> Efectos: Se logran ver a los 3 meses.</li>
-					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a los 5 días.</li>
+					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a las dos semanas.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
 				</ul>
 			</div>
@@ -216,7 +216,7 @@ if(isset($_POST['numero'])){
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>LEVANTAMIENTO DE MAMAS</h1>
 				<p>Es la corrección de la mama mediante la elevación. Causas: Ligamentos que sostienen la mama están sobrecargados por una mama voluminosa o pérdida del volumen y flacidez después del embarazo o pérdida de peso importante.</p>
-				<p>Se armoniza: El exceso de piel, el complejo areola/pezón se reubica según la marcación o dibujo que se realice antes de la cirugía y puede estar combinada con otras técnicas de de reconstrucción.</p>
+				<p>Se armoniza: El exceso de piel, el complejo areola/pezón se reubica según la marcación o dibujo que se realice antes de la cirugía y puede estar combinada con otras técnicas de reconstrucción.</p>
 				
 				<div id='visor-album' class='visor-album'>
 					<img class="visor-imagen-sola" src="/img/cirugia-estetica/ReduccionMamas.jpg" alt="">
@@ -248,15 +248,15 @@ if(isset($_POST['numero'])){
 				<p><span>Objetivos:</span> Volumen, proyección y mejorar la estética de la mama.</p>
 				
 				<div id='visor-album' class='visor-album'>
+					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas3.jpg" alt="">
 					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas1.jpg" alt="">
-					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas2.jpg" alt="">
-					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas3.jpg" alt="">					
+					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas2.jpg" alt="">			
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
 							<i class="dots fas fa-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>		
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>		
 						</div>
 						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
 					</div>
@@ -310,10 +310,10 @@ if(isset($_POST['numero'])){
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
 							<i class="dots fas fa-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
 						</div>
 						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
 					</div>
@@ -348,9 +348,9 @@ if(isset($_POST['numero'])){
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
 							<i class="dots fas fa-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
-							<i class="dots far fa-dot-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
+							<i class="dots far fa-circle"></i>
 							
 						</div>
 						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
