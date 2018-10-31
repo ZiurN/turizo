@@ -430,6 +430,21 @@ article {
 #referencia {
   display: none; }
 
+.cirugia-seccion-contenedor-seleccionado {
+  text-align: justify; }
+  .cirugia-seccion-contenedor-seleccionado h1 {
+    font-size: 2rem; }
+  .cirugia-seccion-contenedor-seleccionado h2 {
+    font-size: 1rem;
+    padding: 1rem 0; }
+  .cirugia-seccion-contenedor-seleccionado ul {
+    padding: 2rem 2rem; }
+    .cirugia-seccion-contenedor-seleccionado ul li {
+      padding: 0.5rem 0; }
+  .cirugia-seccion-contenedor-seleccionado p span {
+    color: #0096A9;
+    text-decoration: underline #0096A9; }
+
 .instagram-header {
   padding: 2rem;
   display: flex;
@@ -869,22 +884,7 @@ article {
 
   .seccion-rellenar {
     padding: 0 2rem;
-    width: 95%; }
-
-  .cirugia-seccion-contenedor-seleccionado {
-    text-align: justify; }
-    .cirugia-seccion-contenedor-seleccionado h1 {
-      font-size: 2rem; }
-    .cirugia-seccion-contenedor-seleccionado h2 {
-      font-size: 1rem;
-      padding: 1rem 0; }
-    .cirugia-seccion-contenedor-seleccionado ul {
-      padding: 2rem 2rem; }
-      .cirugia-seccion-contenedor-seleccionado ul li {
-        padding: 0.5rem 0; }
-    .cirugia-seccion-contenedor-seleccionado p span {
-      color: #0096A9;
-      text-decoration: underline #0096A9; } }
+    width: 95%; } }
 @media only screen and (min-width: 1200px) {
   .contenedor-menu-circular-abajo {
     width: 350px;
