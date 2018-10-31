@@ -58,8 +58,10 @@ if(isset($_POST['numero'])){
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>Rinoplastia</h1>
 				
-				<p><span>Rinoplastia estética:</span>Cirugía en la que se resuelven principalmente los problemas estéticos de la nariz tales como la giba ósea, el hueso que sobresale del dorso de la nariz a semejanza de una joroba, las desviaciones hacia la derecha o izquierda de la totalidad de la nariz y las malformaciones congénitas como las secuelas del labio y paladar hendido, y asimismo otros factores genéticos o adquiridos por traumatismos y enfermedades.</p> 
-				<p><span>Rinoplastia funcional:</span> Se busca una solución a la nariz obstruida por tensión excesiva o desviación del tabique nasal exclusivamente. Existen otras estructuras de la anatomía de la nariz cuyas alteraciones congénitas o adquiridas pueden contribuir o ser la causa de la obstrucción. </p>
+				<p><span>Rinoplastia estética:</span></p>
+				<p>Cirugía en la que se resuelven principalmente los problemas estéticos de la nariz tales como la giba ósea, el hueso que sobresale del dorso de la nariz a semejanza de una joroba, las desviaciones hacia la derecha o izquierda de la totalidad de la nariz y las malformaciones congénitas como las secuelas del labio y paladar hendido, y asimismo otros factores genéticos o adquiridos por traumatismos y enfermedades.</p> 
+				<p><span>Rinoplastia funcional:</span></p>
+				<p>Se busca una solución a la nariz obstruida por tensión excesiva o desviación del tabique nasal exclusivamente. Existen otras estructuras de la anatomía de la nariz cuyas alteraciones congénitas o adquiridas pueden contribuir o ser la causa de la obstrucción. </p>
 				<p><span>Objetivos:</span> Devolver la armonía facial del paciente adaptando su nariz a la cara y mejorando la funcionalidad.</p>
 				<ul>
 					<li><i class="far fa-clock"></i>Tiempo: 2-4 horas.</li>
@@ -215,7 +217,7 @@ if(isset($_POST['numero'])){
 		case 8;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
-				<h1>LEVANTAMIENTO DE MAMAS</h1>
+				<h1>LEVANTAMIENTO DE MAMAS (Pexia)</h1>
 				<p>Es la corrección de la mama mediante la elevación. Causas: Ligamentos que sostienen la mama están sobrecargados por una mama voluminosa o pérdida del volumen y flacidez después del embarazo o pérdida de peso importante.</p>
 				<p>Se armoniza: El exceso de piel, el complejo areola/pezón se reubica según la marcación o dibujo que se realice antes de la cirugía y puede estar combinada con otras técnicas de reconstrucción.</p>
 				
