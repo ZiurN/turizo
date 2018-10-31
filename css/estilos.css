@@ -19,6 +19,14 @@ body {
 ul {
   list-style: none; }
 
+ul, ol {
+  list-style-position: inside; }
+
+ol {
+  padding: 2rem; }
+  ol li {
+    padding: 0.5rem; }
+
 a {
   text-decoration: none;
   color: inherit; }
@@ -646,7 +654,7 @@ article {
   align-items: center; }
 
 .dots {
-  color: rgba(255, 255, 255, 0.5); }
+  color: rgba(255, 255, 255, 0.8); }
   .dots:hover {
     cursor: pointer; }
 

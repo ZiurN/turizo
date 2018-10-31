@@ -174,7 +174,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>LIFTING FACIAL</h1>
-				<p>Es la cirugía del rejuvenecimiento del tercio medio e inferior de la cara. Consiste en el tratamiento de los planos de la cara que han caído con el proceso de envejecimiento y que en muchas personas se manifiesta con caída de la piel de las mejillas sobrepasando la mandíbula inferior dando un aspecto de mejillas de Perro, piel arrugada y flácida, pérdida de la grasa facial y reabsorción del hueso maxilar.</p>
+				<p>Es la cirugía del rejuvenecimiento del tercio medio e inferior de la cara. Consiste en el tratamiento de los planos de la cara que han caído con el proceso de envejecimiento y se manifiesta con caída de la piel de las mejillas sobrepasando la mandíbula inferior dando un aspecto de mejillas de Perro, piel arrugada y flácida, pérdida de la grasa facial y reabsorción del hueso maxilar.</p>
 				<p>El procedimiento consiste en levantar (Lifting) la piel y grasa facial y reubicarla en zonas de soporte para dar un aspecto más juvenil y puede estar acompañado de injerto graso para armonizar aún más con resultados naturales. </p>
 				
 				<ul>
@@ -279,7 +279,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>GINECOMASTIA</h1>
-				<P>La cirugía que disminuye el tamaño de las mamas en el hombre, si bien es importante recalcar que la ginecomastia es el aumento del volumen glandular en la mama del hombre que puede estar causado por trastornos hormonales, genética, obesidad, uso de estimulantes, esteroides. Debe ser evaluada por completo antes de operarse para buscar la causa y por último corregirlo en el quirófano.</P>
+				<P>La cirugía que disminuye el tamaño de las mamas en el hombre, si bien es importante recalcar que la ginecomastia es el aumento del volumen glandular en la mama del hombre que puede estar causado por trastornos hormonales, genética, obesidad, uso de estimulantes, esteroides y otras enfermedades que requieren de una evaluación médica completa para poder definir finalmente la CIRUGÍA.</P>
 				<P><span>Beneficios de la cirugía:</span> Mejora el volumen y da una proyección masculina a la mama para mejorar la autoestima y la estética.</P>
 				<P>¿Y la cirugía en qué consiste? Por medio de la liposucción con cánulas y/o retirar con otros métodos como lo es la mastectomía (cortar) el tejido glandular, retirar la piel flácida y finalmente reinsertar la areola si es necesario en el caso de cirugías muy grandes.</P>
 				<ul>
@@ -298,7 +298,15 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>ABDOMINOPLASTIA</h1>
-				<p>La cirugía del abdomen, consiste en la corrección de tres puntos importantes: 1. La flacidez de la piel; 2. La debilidad de los músculos rectos abdominales que se separan por muchos factores (embarazo, obesidad principalmente); 3. El grado de adiposidad o grasa concentrada en el abdomen. Puede haber variantes en la cirugía reconstructiva, la dermolipectomía circular, dermolipectomia reversa que se realiza entre el abdomen y el tórax o una cicatriz debajo del bikini.</p>
+				<p>La cirugía del abdomen, consiste en la corrección de tres puntos importantes: 
+					
+					<ol>
+						<li>La flacidez de la piel.</li>
+						<li>La debilidad de los músculos rectos abdominales que se separan por muchos factores (embarazo, obesidad principalmente).</li>
+						<li>El grado de adiposidad o grasa concentrada en el abdomen.</li>
+					</ol>
+					
+				<p>Puede haber variantes en la cirugía reconstructiva, la dermolipectomía circular, dermolipectomia reversa que se realiza entre el abdomen y el tórax o una cicatriz debajo del bikini.</p>
 				<p><span>Beneficios de la cirugía:</span> Recupera la armonía del abdomen y permite que visualmente sea agradable mejorando también el autoestima.</p>
 				
 				<div id='visor-album' class='visor-album'>

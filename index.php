@@ -229,7 +229,7 @@
 					</div>
 				</div>
 				<div class="redes-texto whatsapp">
-					<a href="wa.me/1166453915"><i class="fab fa-whatsapp"></i>&nbsp;whatsapp<br><br>wa.me/1166453915</a>
+					<a href="https://api.whatsapp.com/send?phone=1166453915"><i class="fab fa-whatsapp"></i>&nbsp;whatsapp<br><br>wa.me/1166453915</a>
 				</div>
 				<br>
 				<div class="instagram-titulo">
