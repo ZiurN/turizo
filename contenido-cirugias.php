@@ -14,7 +14,7 @@ if(isset($_POST['numero'])){
 				<p>Son dispositivos que permiten asistir la cirugía de liposucción para mejorar resultados, disminuir el dolor postoperatorio y facilitar que haya mejor fijación de la piel a planos profundos.</p>
 
 				<p><span>LASER:</span> Disuelve la grasa convirtiéndola en grasa líquida para luego ser aspirada.</p>
-				<p>VASER: Utiliza el ultrasonido que rompe las células grasas y fibras que están en el tejido graso superficial y profundo justo debajo de la piel para luego ser aspirado según la zona a tratar.</p>
+				<p><span>VASER:</span> Utiliza el ultrasonido que rompe las células grasas y fibras que están en el tejido graso superficial y profundo justo debajo de la piel para luego ser aspirado según la zona a tratar.</p>
 
 				<p><span>LIPO 4D</span> Se utiliza el equipo VASER para destruir la grasa, disminuir las estrías, facilitar al cirujano aspirar con mayor facilidad la grasa, menor dolor postoperatorio, y permite retracción de los tejidos facilitando que la piel pegue en profundidad.</p>
 				
@@ -29,7 +29,7 @@ if(isset($_POST['numero'])){
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
 							<i class="dots fas fa-circle"></i>
-							<i class="dots far fa-circle"></i><i class="fas fa-circle"></i>
+							<i class="dots far fa-circle"></i>
 							<i class="dots far fa-circle"></i>
 							<i class="dots far fa-circle"></i>
 							<i class="dots far fa-circle"></i>
