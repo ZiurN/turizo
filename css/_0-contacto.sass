@@ -1,0 +1,92 @@
+.instagram-header
+	padding: 2rem
+	display: flex
+	flex-wrap: wrap
+.instagram-foto
+	order: 1
+	border-radius: 50%
+	width: 7rem
+	height: 7rem
+	overflow: hidden
+	margin: 0.5rem
+	img
+		width: 100%
+		height: 100%
+.instagram-nombre
+	order: 3
+	width: 100%
+	font-size: 1.5rem
+	padding: 1rem 0
+.instagram-datos
+	order: 2
+	width: 51%
+	padding: 0.5rem
+	ul
+		display: flex
+		text-align: center
+		font-size: 0.7rem
+		li
+			width: 3rem
+			overflow: hidden
+			padding: 0 0.4rem
+			span
+				font-size: 1.2rem
+.instagram-bio
+	width: 100%
+	order: 4
+.instagram-titulo
+	margin: auto
+	text-align: right
+	font-size: 1.5rem
+	border-bottom: solid grey 1px
+	padding: 1rem
+.contacto-contenido-redes
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+.redes
+	width: 20%
+	margin: 0
+	a
+		i
+			font-size: 2rem
+.redes-texto
+	width: 100%
+	display: block
+	text-align: right
+	font-size: 1.5rem
+	padding: 0.5rem
+.whatme
+	display: block
+	margin: auto
+	text-align: center
+	font-size: 1.5rem
+.enviar-datos
+	margin: 1rem
+	display: block
+	position: relative
+.dato-form
+	position: relative
+	display: block
+	background: none
+	border: none
+	border-bottom: 1px solid white
+	height: 2rem
+	width: 70%
+	margin: 1rem 0 1.5rem 0
+	z-index: 2
+	+transicionTodo(0.9s)
+	&:focus, &:valid
+		border-bottom: 1px solid $azulPrincipal
+	&:focus + label, &:valid + label
+		top: -4.3rem
+		font-size: 0.7rem
+.dato-label
+	display: block
+	position: relative
+	top: -3rem
+	z-index: 1
+	font-size: 1rem
+	+transicionTodo(0.9s)
+.btn-form
+	

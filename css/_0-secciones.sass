@@ -1,0 +1,98 @@
+#content
+	height: 100vh
+	width: 100%
+	position: relative
+	overflow: hidden
+article
+	position: absolute
+	height: 100%
+	width: 100%
+	overflow-x: hidden
+	overflow-y: auto
+	p
+		padding: 1rem 2rem 0.5rem 2rem
+	background-size: cover
+	background-position: center
+.seccion-contenido
+	padding: 1rem 2rem
+.activa
+	z-index: 1
+	opacity: 1
+	+transicionTodo(1s)
+.off
+	z-index: 0
+	opacity: 0
+	+transicionTodo(1s)
+.titulo-seccion
+	display: block
+	padding: 2rem 2rem 0 0
+	font-size: 2.5rem
+	text-align: right
+	text-transform: uppercase
+.linea-titulo
+	height: 5px
+	width: 90%
+	line
+		stroke: $azulPrincipal
+		stroke-width: 4px
+#inicio-seccion
+	background-image: url(/img/servicios2.jpg)
+#cirugia-seccion
+	background-image: url(/img/servicios2.jpg)
+#formacion-seccion
+	background-image: url(/img/formacion2.jpg)
+#logo-seccion
+	background-color: rgba($azulPrincipal, 0.3)
+#estetica-seccion
+	background-image: url(/img/estetica2.jpg)
+#contacto-seccion
+	background-image: url(/img/contacto2.jpg)
+.listado-cirugia
+	position: absolute
+	width: 84%
+	left: 8%
+	+transicionTodo(0.6s)
+.listado-cirugia-corrido
+	left: -100%
+	+transicionTodo(0.6s)
+.cirugia-seccion-item, .estetica-seccion-item
+	height: 8rem
+	overflow: hidden
+	border-radius: 1rem
+	margin: 0.5rem auto
+	background-color: $azulPrincipal
+	color: white
+	font-size: 1.3rem
+	display: block
+	position: relative
+	img
+		width: 100%
+		filter: opacity(0.3)
+	h1
+		position: absolute
+		display: block
+		width: 80%
+		text-align: center
+		left: 10%
+		top: 25%
+	&:hover
+		cursor: pointer
+.contenido-seleccion
+	position: absolute
+	left: 105%
+	width: 84%
+	+transicionTodo(0.6s)
+.contenido-seccion-mostrado
+	left: 8%
+	+transicionTodo(0.6s)
+.far, .far, .fas
+	color: $azulPrincipal
+	font-size: 1.4rem
+.boton-volver
+	position: absolute
+	width: 3rem
+	top: -8rem
+	&:hover
+		cursor: pointer
+#referencia
+	display: none
