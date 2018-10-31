@@ -126,7 +126,7 @@
 						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
-						<h1>BOTOX</h1>
+						<h1>BOTOX<br>Toxina Botulínica</h1>
 						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">						
 					</li>
 					<li class="estetica-seccion-item">
@@ -298,7 +298,7 @@
 			<div class="formacion-seccion-parte formacion-seccion-experiencia">
 			 	<ul class="formacion-seccion-listado">
 				 	<h2>Rotaciones</h2>
-					<li class="formacion-seccion-item">Hospital Ramos Mejía de la Ciudad de Buenos Aires, Hospital Fernández, Hospital Ricardo Gutierrez(Infantil), Hospital  Profesor Garraham(Cirugía de Miembros), Hospital de Quemados de la Ciudad de Buenos Aires, Clínica Internacional de Cirugía Plástica "Estética Buenos Aires". <strong>2013-2016</strong></li>
+					<li class="formacion-seccion-item">Hospital Ramos Mejía de la Ciudad de Buenos Aires; Hospital Fernández; Hospital Ricardo Gutierrez(Infantil); Hospital  Profesor Garraham(Cirugía de Miembros); Hospital de Quemados de la Ciudad de Buenos Aires; Clínica Internacional de Cirugía Plástica "Estética Buenos Aires". <strong>Buenos Aires Argentina; 2013-2016.</strong></li>
 				 	<h2>Fellowship</h2>
 					<li class="formacion-seccion-item">Becado en la prestigiosa Clínica Planas de Barcelona – Año 2017 (ESPAÑA).</li>
 				 	<h2>Recertificación</h2>
