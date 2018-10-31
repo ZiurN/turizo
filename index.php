@@ -242,7 +242,7 @@
 					<input class="dato-form" type="text" name="nombre" required><label class="dato-label" for="name">Tu Nombre</label>
 					<input class="dato-form" type="email" name="email" required><label class="dato-label" for="email">Tu Correo</label>
 					<input class="dato-form" type="text" name="comentario" required><label class="dato-label" for="comentario">Tu Comentario</label>
-					<input class="btn-form" type="submit" value="Submit">
+					<input class="btn-form" type="submit" name="enviar" value="Submit">
 				</form>
 			</div>
 		</div>
