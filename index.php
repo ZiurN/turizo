@@ -228,7 +228,7 @@
 						<a href="https://www.facebook.com/drturizo/"><i class="fab fa-twitter"></i></a>
 					</div>
 				</div>
-				<div class="redes-texto">
+				<div class="redes-texto whatsapp">
 					<a href="https%3A%2F%2Fwa.me%2F541166453915&e=ATPgrz8vzk_wFMSBh9Xuzn5pKvbuQDTWyQmLAITIDEfpo38Z-IEwab1pok7AEfITReYsWDI7UKyN7SFM"><i class="fab fa-whatsapp"></i>&nbsp;what.me<br>541166453915</a>
 				</div>
 				<br>
