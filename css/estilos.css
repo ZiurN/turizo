@@ -511,6 +511,7 @@ article {
   position: relative;
   display: block;
   background: none;
+  text-align: right;
   border: none;
   border-bottom: 1px solid white;
   height: 2rem;
@@ -539,6 +540,12 @@ article {
   -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
   -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
   -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+
+.btn-form {
+  border: none;
+  padding: 1rem;
+  background: #0096A9;
+  color: white; }
 
 .logo-seccion-logo {
   width: 50%;
