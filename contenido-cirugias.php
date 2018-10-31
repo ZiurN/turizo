@@ -57,8 +57,8 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>Rinoplastia</h1>
-				<h2>¿LASER o VASER?</h2>
-				<p>Cirugía en la que se resuelven principalmente los problemas estéticos de la nariz tales como la giba ósea, el hueso que sobresale del dorso de la nariz a semejanza de una joroba, las desviaciones hacia la derecha o izquierda de la totalidad de la nariz y las malformaciones congénitas como las secuelas del labio y paladar hendido, y asimismo otros factores genéticos o adquiridos por traumatismos y enfermedades.</p> 
+				
+				<p><span>Rinoplastia estética:</span>Cirugía en la que se resuelven principalmente los problemas estéticos de la nariz tales como la giba ósea, el hueso que sobresale del dorso de la nariz a semejanza de una joroba, las desviaciones hacia la derecha o izquierda de la totalidad de la nariz y las malformaciones congénitas como las secuelas del labio y paladar hendido, y asimismo otros factores genéticos o adquiridos por traumatismos y enfermedades.</p> 
 				<p><span>Rinoplastia funcional:</span> Se busca una solución a la nariz obstruida por tensión excesiva o desviación del tabique nasal exclusivamente. Existen otras estructuras de la anatomía de la nariz cuyas alteraciones congénitas o adquiridas pueden contribuir o ser la causa de la obstrucción. </p>
 				<p><span>Objetivos:</span> Devolver la armonía facial del paciente adaptando su nariz a la cara y mejorando la funcionalidad.</p>
 				<ul>
@@ -279,7 +279,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>GINECOMASTIA</h1>
-				<P>La cirugía que disminuye el tamaño de las mamas en el hombre, si bien es importante recalcar que la ginecomastia es el aumento del volumen glandular en la mama del hombre que puede estar causado por trastornos hormonales, genética, obesidad o uso de estimulantes esteroides. Debe ser evaluada por completo antes de operarse para buscar la causa y por último corregirlo en el quirófano.</P>
+				<P>La cirugía que disminuye el tamaño de las mamas en el hombre, si bien es importante recalcar que la ginecomastia es el aumento del volumen glandular en la mama del hombre que puede estar causado por trastornos hormonales, genética, obesidad, uso de estimulantes, esteroides. Debe ser evaluada por completo antes de operarse para buscar la causa y por último corregirlo en el quirófano.</P>
 				<P><span>Beneficios de la cirugía:</span> Mejora el volumen y da una proyección masculina a la mama para mejorar la autoestima y la estética.</P>
 				<P>¿Y la cirugía en qué consiste? Por medio de la liposucción con cánulas y/o retirar con otros métodos como lo es la mastectomía (cortar) el tejido glandular, retirar la piel flácida y finalmente reinsertar la areola si es necesario en el caso de cirugías muy grandes.</P>
 				<ul>
