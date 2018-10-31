@@ -182,24 +182,24 @@
 		</div>
     </article>
     <article id="logo-seccion" class="off">
-      <div class="titulo-seccion">
-        <h1>Identidad</h1>
-        <svg class="linea-titulo">
-          <line  x1="10%" y1="0" x2="100%" y2="0"/>
-        </svg>
-      </div>
-      <div class="seccion-contenido">
-		  <div class="logo-seccion-logo">
-		 		<img src="/img/logoSimboloColor.svg" alt="">
-		  </div>
-		  <div class="logo-seccion-caption">
-			  <p class="logo-seccion-cita">"El logo representa la belleza del cuerpo humano fusionada en un solo círculo"</p>
-			  <div class="firma">
-				  <div class="firma-turizo">Dr. Turizo José Miguel</div>
-				  <div class="firma-cirujano">Cirujano Plástico, Estético y reconstructivo</div>
+		<div class="titulo-seccion">
+			<h1>Identidad</h1>
+			<svg class="linea-titulo">
+			  <line  x1="10%" y1="0" x2="100%" y2="0"/>
+			</svg>
+		</div>
+		<div class="seccion-contenido">
+			  <div class="logo-seccion-logo">
+					<img src="/img/logoSimboloColor.svg" alt="">
 			  </div>
-		  </div>
-       </div>
+			  <div class="logo-seccion-caption">
+				  <p class="logo-seccion-cita">"El logo representa la belleza del cuerpo humano fusionada en un solo círculo"</p>
+				  <div class="firma">
+					  <div class="firma-turizo">Dr. Turizo José Miguel</div>
+					  <div class="firma-cirujano">Cirujano Plástico, Estético y reconstructivo</div>
+				  </div>
+			  </div>
+		</div>
     </article>
 	<article id="contacto-seccion" class="off">
 		<div class="titulo-seccion">
@@ -209,40 +209,41 @@
 			</svg>
 		</div>
 		<div class="seccion-contenido">
-			<div class="contacto-contenido-redes">
-				<div class="redes-texto">@drturizo</div>
-				<div class="instagram-titulo redes">
-					<a href="https://www.instagram.com/drturizo/"><i class="fab fa-instagram"></i></a>
+			<div class="contacto-contenido">
+				<div class="contacto-contenido-redes">
+					<div class="redes-texto">@drturizo</div>
+					<div class="instagram-titulo redes">
+						<a href="https://www.instagram.com/drturizo/"><i class="fab fa-instagram"></i></a>
+					</div>
+					<div class="instagram-titulo redes">
+						<a href="https://www.facebook.com/drturizo/"><i class="fab fa-facebook"></i></a>
+					</div>
+					<div class="instagram-titulo redes">
+						<a href="https://www.facebook.com/drturizo/"><i class="fab fa-youtube"></i></a>
+					</div>
+					<div class="instagram-titulo redes">
+						<a href="https://www.facebook.com/drturizo/"><i class="fab fa-pinterest"></i></a>
+					</div>
+					<div class="instagram-titulo redes">
+						<a href="https://www.facebook.com/drturizo/"><i class="fab fa-twitter"></i></a>
+					</div>
 				</div>
-				<div class="instagram-titulo redes">
-					<a href="https://www.facebook.com/drturizo/"><i class="fab fa-facebook"></i></a>
+				<div class="redes-texto">
+					<a href="https%3A%2F%2Fwa.me%2F541166453915&e=ATPgrz8vzk_wFMSBh9Xuzn5pKvbuQDTWyQmLAITIDEfpo38Z-IEwab1pok7AEfITReYsWDI7UKyN7SFM"><i class="fab fa-whatsapp"></i>&nbsp;what me</a>
 				</div>
-				<div class="instagram-titulo redes">
-					<a href="https://www.facebook.com/drturizo/"><i class="fab fa-youtube"></i></a>
+				<br>
+				<div class="instagram-titulo">
+					<i class="far fa-compass"></i>¿Cómo llegar?
 				</div>
-				<div class="instagram-titulo redes">
-					<a href="https://www.facebook.com/drturizo/"><i class="fab fa-pinterest"></i></a>
-				</div>
-				<div class="instagram-titulo redes">
-					<a href="https://www.facebook.com/drturizo/"><i class="fab fa-twitter"></i></a>
-				</div>
-			</div>
-			<div class="redes-texto">
-				<a href="https%3A%2F%2Fwa.me%2F541166453915&e=ATPgrz8vzk_wFMSBh9Xuzn5pKvbuQDTWyQmLAITIDEfpo38Z-IEwab1pok7AEfITReYsWDI7UKyN7SFM"><i class="fab fa-whatsapp"></i>&nbsp;what me</a>
-			</div>
-			<br>
-			<div class="instagram-titulo">
-				<i class="far fa-compass"></i>¿Cómo llegar?
-			</div>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.987452862388!2d-58.4152626!3d-34.5915954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4733f572db91af1b!2sCirujano+Pl%C3%A1stico+Jos%C3%A9+Miguel+Turizo!5e0!3m2!1ses!2sar!4v1540431563954" frameborder="0" style="border:0" allowfullscreen></iframe>
-			<div class="instagram-titulo"><i class="far fa-envelope"></i> Correo electrónico</div>
-			<p>Para contactarme puedes escribirme y se responde a la mayor brevedad.</p>
-			<form action="" class="enviar-datos">
-				<input class="dato-form" type="text" name="nombre" required><label class="dato-label" for="name">Tu Nombre</label>
-				<input class="dato-form" type="email" name="email" required><label class="dato-label" for="email">Tu Correo</label>
-				<input class="dato-form" type="text" name="comentario" required><label class="dato-label" for="comentario">Tu Comentario</label>
-				<input class="btn-form" type="submit" value="Submit">
-			</form>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.987452862388!2d-58.4152626!3d-34.5915954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4733f572db91af1b!2sCirujano+Pl%C3%A1stico+Jos%C3%A9+Miguel+Turizo!5e0!3m2!1ses!2sar!4v1540431563954" frameborder="0" style="border:0" allowfullscreen></iframe>
+				<div class="instagram-titulo"><i class="far fa-envelope"></i> Correo electrónico</div>
+				<p>Para contactarme puedes escribirme y se responde a la mayor brevedad.</p>
+				<form action="" class="enviar-datos">
+					<input class="dato-form" type="text" name="nombre" required><label class="dato-label" for="name">Tu Nombre</label>
+					<input class="dato-form" type="email" name="email" required><label class="dato-label" for="email">Tu Correo</label>
+					<input class="dato-form" type="text" name="comentario" required><label class="dato-label" for="comentario">Tu Comentario</label>
+					<input class="btn-form" type="submit" value="Submit">
+				</form>
 			</div>
 		</div>
     </article>
