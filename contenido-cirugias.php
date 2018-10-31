@@ -374,7 +374,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>POSTBARIÁTRICOS</h1>
-				<p>Reconstruir a un paciente bariátrico depende de un equipo grande que consta desde psicólogos, nutricionistas, terapias alternativas y de médicos especializados en distintas áreas lo cual se traduce en medicina holística.</p>
+				<p>Reconstruir a un paciente después de la Cirugía bariátrica depende de un equipo sincronizado que consta de psicólogos, nutricionistas, terapias alternativas y de médicos especializados en distintas áreas lo cual se traduce en medicina holística.</p>
 				<p>Una vez el paciente ya haya pasado el periodo de recuperación por el programa de pérdida de peso por el cirujano especializado en cirugía bariátrica se considera candidato para el proceso de reconstrucción.</p>
 				<p>¿Qué es lo que se reconstruye? El tejido flácido (Piel, grasa, músculos).</p>
 				<p><span>Procedimientos en conjunto:</span> Liposucción.</p>
