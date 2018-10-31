@@ -562,6 +562,8 @@ article {
   padding: 1rem;
   background: #0096A9;
   color: white; }
+  .btn-form:hover {
+    cursor: pointer; }
 
 .logo-seccion-logo {
   width: 50%;
