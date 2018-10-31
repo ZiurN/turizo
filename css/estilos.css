@@ -511,11 +511,10 @@ article {
   position: relative;
   display: block;
   background: none;
-  text-align: right;
   border: none;
   border-bottom: 1px solid white;
   height: 2rem;
-  width: 70%;
+  width: 90%;
   margin: 1rem 0 1.5rem 0;
   z-index: 2;
   transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
@@ -530,6 +529,7 @@ article {
     font-size: 0.7rem; }
 
 .dato-label {
+  text-align: right;
   display: block;
   position: relative;
   top: -3rem;
