@@ -217,6 +217,11 @@ if(isset($_POST['numero'])){
 				<h1>LEVANTAMIENTO DE MAMAS</h1>
 				<p>Es la corrección de la mama mediante la elevación. Causas: Ligamentos que sostienen la mama están sobrecargados por una mama voluminosa o pérdida del volumen y flacidez después del embarazo o pérdida de peso importante.</p>
 				<p>Se armoniza: El exceso de piel, el complejo areola/pezón se reubica según la marcación o dibujo que se realice antes de la cirugía y puede estar combinada con otras técnicas de de reconstrucción.</p>
+				
+				<div id='visor-album' class='visor-album'>
+					<img class="visor-imagen-sola" src="/img/cirugia-estetica/ReduccionMamas.jpg" alt="">
+				</div>
+				
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 2-3 Horas.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
@@ -237,10 +242,6 @@ if(isset($_POST['numero'])){
 				<p>Es la corrección mediante la elevación de los tejidos y reducción del volumen de la mama, que busca la proyección, volumen adecuado y una cosmética que sea agradable visualmente.</p>
 				<p>Causas principales que aumentan el volumen de la mama: hormonales: Embarazo, obesidad, genética...</p>
 				<p><span>Objetivos:</span> Se armoniza la mama y se trata el exceso de piel, el complejo areola/pezón se reubica según la marcación o dibujo que se realice antes de la cirugía.</p>
-				
-				<div id='visor-album' class='visor-album'>
-					<img class="visor-imagen-sola" src="/img/cirugia-estetica/ReduccionMamas.jpg" alt="">
-				</div>
 								
 				<h2>AUMENTO DE MAMAS</h2>
 				<p>La cirugía consiste en darle volumen a la mama, la cual puede ser con implantes que se pueden indicar por distintas vías, ya sea alrededor de la areola, submamaria (debajo de la mama) o axilar y que pueden variar las zonas en donde se deje el implante, ya sea detrás de la glándula mamaria, detrás del músculo, detrás de la fascia del músculo o combinado.</p>
