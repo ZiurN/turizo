@@ -57,6 +57,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>Rinoplastia</h1>
+				<h2>¿LASER o VASER?</h2>
 				<p>Cirugía en la que se resuelven principalmente los problemas estéticos de la nariz tales como la giba ósea, el hueso que sobresale del dorso de la nariz a semejanza de una joroba, las desviaciones hacia la derecha o izquierda de la totalidad de la nariz y las malformaciones congénitas como las secuelas del labio y paladar hendido, y asimismo otros factores genéticos o adquiridos por traumatismos y enfermedades.</p> 
 				<p><span>Rinoplastia funcional:</span> Se busca una solución a la nariz obstruida por tensión excesiva o desviación del tabique nasal exclusivamente. Existen otras estructuras de la anatomía de la nariz cuyas alteraciones congénitas o adquiridas pueden contribuir o ser la causa de la obstrucción. </p>
 				<p><span>Objetivos:</span> Devolver la armonía facial del paciente adaptando su nariz a la cara y mejorando la funcionalidad.</p>
