@@ -132,7 +132,7 @@ if(isset($_POST['numero'])){
 			<li>Cirugía de levantamiento (Pexia) de la ceja por vía directa realizando una pequeña resección de piel por encima de la ceja. Contras: Deja cicatriz lineal que se puede cubrir con maquillajes. Y Beneficios: Tiene duración prolongada.</li>
 		</ul>	
 		<?php
-			
+		break;
 			
 		case 5;
 		?>
