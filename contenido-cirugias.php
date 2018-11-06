@@ -114,7 +114,27 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
+			
 		case 4;
+		?>
+		<h1>LEVANTAMIENTO DE CEJAS</h1>
+		<h2>Pexia de cejas</h2>
+		<p>Las cejas, son las dos líneas de vellos a solo un par de centímetros de nuestros ojos, ubicadas en la parte inferior de la frente, dando vida y armonía al rostro.</p>
+		<p>Es una característica que se puede hallar en varias especies de primates u otros animales, pero resalta especialmente sobre el rostro humano.
+		<h2>¿Qué función cumplen las cejas en el ser humano?</h2>
+		<p>Aunque se vean muy simples,  cumplen tres funciones: Protegen nuestros ojos, facilitan la comunicación y armonizan a la cara.</p>
+		<h2>¿Por qué se caen las cejas?</h2>
+		<p>Predisposición genética, envejecimiento, efectos no deseados por toxina botulínica, trauma entre otras.</p>
+		<h2>¿Qué tratamientos existen para levantar la ceja?</h2>
+		<ul>
+			<li>Toxina Botulínica A.</li>
+			<li>Vía endoscópica (Por medio de un dispositivo con cámara, tomando como entrada el cuero cabelludo internamente en la frente hasta llegar por encima de la ceja y reafirmar el tejido con puntos internos levantando la ceja). Beneficios: No deja cicatriz visible. Y Contras: Puede llegar a caerse la cola de la ceja en menor tiempo (No especificado).</li>
+			<li>Cirugía de levantamiento (Pexia) de la ceja por vía directa realizando una pequeña resección de piel por encima de la ceja. Contras: Deja cicatriz lineal que se puede cubrir con maquillajes. Y Beneficios: Tiene duración prolongada.</li>
+		</ul>	
+		<?php
+			
+			
+		case 5;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>BICHECTOMÍA</h1>
@@ -172,7 +192,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 6;
+		case 5;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>LIFTING FACIAL</h1>
@@ -191,7 +211,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;		
-		case 7;
+		case 6;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>NANOFAT FACIAL</h1>
@@ -214,7 +234,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 8;
+		case 7;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>LEVANTAMIENTO DE MAMAS (Pexia)</h1>
@@ -236,7 +256,7 @@ if(isset($_POST['numero'])){
 				</ul>
 			</div>
 		<?php
-		break;case 9;
+		break;case 8;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>AUMENTO Y REDUCCIÓN DE MAMAS</h1>
@@ -277,7 +297,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 10;
+		case 9;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>GINECOMASTIA</h1>
@@ -296,7 +316,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 11;
+		case 10;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>ABDOMINOPLASTIA</h1>
@@ -342,7 +362,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 12;
+		case 11;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>AUMENTO DE GLUTEOS</h1>
@@ -380,7 +400,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;	
-		case 13;
+		case 12;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>POSTBARIÁTRICOS</h1>

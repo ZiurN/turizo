@@ -60,6 +60,10 @@
 						<img src="https://www.vissum.com/wp-content/uploads/2018/01/blefaroplastia.png" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
+						<h1>Levantamiento de Cejas</h1>	
+						<img src="https://www.vissum.com/wp-content/uploads/2018/01/blefaroplastia.png" alt="">	
+					</li>
+					<li class="cirugia-seccion-item">
 						<h1>Bichectomía</h1>
 						<img src="https://www.webconsultas.com/sites/default/files/styles/encabezado_articulo/public/temas/bolas-de-bichat.jpg" alt="">	
 					</li>
