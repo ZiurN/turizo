@@ -260,16 +260,14 @@ if(isset($_POST['numero'])){
 				
 			</div>
 		<?php
-		break
-			
+		break;
 		case 8;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				
 			</div>
 		<?php
-		break
-			
+		break;
 		case 9;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
