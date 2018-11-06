@@ -450,6 +450,9 @@ article {
     padding: 2rem 2rem; }
     .cirugia-seccion-contenedor-seleccionado ul li {
       padding: 0.5rem 0; }
+      .cirugia-seccion-contenedor-seleccionado ul li span {
+        color: #0096A9;
+        text-decoration: underline #0096A9; }
   .cirugia-seccion-contenedor-seleccionado p span {
     color: #0096A9;
     text-decoration: underline #0096A9; }
