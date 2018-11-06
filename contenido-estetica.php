@@ -10,10 +10,8 @@ if(isset($_POST['numero'])){
 				<p>Una vez decides iniciar tratamientos para mejorar el aspecto de la cara es necesario tener un concepto claro. El rejuvenecimiento consiste en mejorar lo caído tratando la expresión y la firmeza de los tejidos.</p>
 				<p>Las opciones para obtener resultados exitosos dependen del recurso que se pueda brindar en el consultorio o el quirófano por un profesional indicado.</p>
 			</div>
-			
 		<?php
 		break;
-			
 		case 1;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
@@ -26,6 +24,9 @@ if(isset($_POST['numero'])){
 				<p>Toxina Tipo A hasta la G. Las más usadas en estética son la A y B, principalmente la “A”.</p>
 				<h2>¿Cuáles son las marcas mas conocidas de Toxina Botulínica?</h2>
 				<p>BOTOX® / Dysport® / Xeomin®</p>
+				<div id='visor-album' class='visor-album'>
+					<img class="visor-imagen-sola" src="/img/cirugia-estetica/BotoxVertical.jpg" alt="">
+				</div>
 			</div>
 		<?php
 		break;
@@ -38,6 +39,9 @@ if(isset($_POST['numero'])){
 				<p>Los más utilizados son la grasa corporal, el plasma rico en plaquetas y el ácido hialurónico, cualquier otra sustancia diferente a éstas no son recomendadas por sus efectos colaterales o reacciones alérgicas.</p>
 				<h2>¿Quiénes se pueden hacer rellenos en los labios?</h2>
 				<p>Cualquier persona (Hombre-Mujer) con buen estado de salud y preferiblemente sin antecedentes de alergias. El acuerdo final lo hace el médico tratante. Teniendo en cuenta que la estética del labio tiene variantes cosméticas según el sexo.</p>
+				<div id='visor-album' class='visor-album'>
+					<img class="visor-imagen-sola" src="/img/cirugia-estetica/AumentoLabiosCuadrada.jpg" alt="">
+				</div>
 			</div>
 		<?php
 		break;
@@ -49,6 +53,9 @@ if(isset($_POST['numero'])){
 				<p>En la cara se puede usar complementario después de una cirugía de lifting facial (Levantamiento quirúrgico del rostro), cirugía de párpados, ojos hundidos o cadavéricos, arrugas profundas y aumento del volumen del labio y región temporal.</p>
 				<h2>El MICROFAT </h2>
 				<p>Es una grasa tratada con menor fracción que el nanofat, la diferencia es que el microfat se puede usar para rellenos que requieran mayor volúmen como las zonas de los surcos lacrimales o nasogenianos o depresiones importantes en la piel.</p>
+				<div id='visor-album' class='visor-album'>
+					<img class="visor-imagen-sola" src="/img/cirugia-estetica/nanoFat.jpg" alt="">
+				</div>
 			</div>
 		<?php
 		break;
@@ -65,6 +72,9 @@ if(isset($_POST['numero'])){
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>CONTORNO FACIAL </h1>
 				<p>Rellenos faciales con Ácido Hialurónico.</p>
+				<div id='visor-album' class='visor-album'>
+					<img class="visor-imagen-sola" src="/img/cirugia-estetica/Hialuronico.jpg" alt="">
+				</div>
 			</div>
 		<?php
 		break;

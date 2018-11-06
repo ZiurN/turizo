@@ -156,7 +156,7 @@
 						<img src="https://www.drfernandezblanco.com/blog/wp-content/uploads/lifting-facial-1024x683.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
-						<h1>Nutrientes con microagujar</h1>
+						<h1>Nutrientes con microagujas</h1>
 						<img src="https://i2.wp.com/www.clinicasanza.com/wp-content/uploads/2017/05/pectorales_ginecomastia_clinica-sanza.jpg?resize=999%2C678&ssl=1" alt="">
 					</li>
 					<li class="estetica-seccion-item">
