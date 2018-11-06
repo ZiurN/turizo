@@ -138,7 +138,7 @@
 						<img src="http://www.enriqueojeda.com/images/rinoplastia/rinoplastiaarequipa2.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
-						<h1>NanoFat</h1>
+						<h1>NanoFat/MicroFat</h1>
 						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">						
 					</li>
 					<li class="estetica-seccion-item">
@@ -156,12 +156,8 @@
 						<img src="https://www.drfernandezblanco.com/blog/wp-content/uploads/lifting-facial-1024x683.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
-						<h1>Neeedling y Micronutrientes</h1>
+						<h1>Nutrientes con microagujar</h1>
 						<img src="https://i2.wp.com/www.clinicasanza.com/wp-content/uploads/2017/05/pectorales_ginecomastia_clinica-sanza.jpg?resize=999%2C678&ssl=1" alt="">
-					</li>
-					<li class="estetica-seccion-item">
-						<h1>Mesoterapia</h1>
-						<img src="http://dr-timoshenko.ru/uploads/mentoplastika/mentopl.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Cicatrices</h1>
