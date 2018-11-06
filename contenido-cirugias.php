@@ -117,20 +117,22 @@ if(isset($_POST['numero'])){
 			
 		case 4;
 		?>
-		<h1>LEVANTAMIENTO DE CEJAS</h1>
-		<h2>Pexia de cejas</h2>
-		<p>Las cejas, son las dos líneas de vellos a solo un par de centímetros de nuestros ojos, ubicadas en la parte inferior de la frente, dando vida y armonía al rostro.</p>
-		<p>Es una característica que se puede hallar en varias especies de primates u otros animales, pero resalta especialmente sobre el rostro humano.
-		<h2>¿Qué función cumplen las cejas en el ser humano?</h2>
-		<p>Aunque se vean muy simples,  cumplen tres funciones: Protegen nuestros ojos, facilitan la comunicación y armonizan a la cara.</p>
-		<h2>¿Por qué se caen las cejas?</h2>
-		<p>Predisposición genética, envejecimiento, efectos no deseados por toxina botulínica, trauma entre otras.</p>
-		<h2>¿Qué tratamientos existen para levantar la ceja?</h2>
-		<ul>
-			<li><span>Toxina Botulínica A.</span></li>
-			<li><span>Vía endoscópica</span>(Por medio de un dispositivo con cámara, tomando como entrada el cuero cabelludo internamente en la frente hasta llegar por encima de la ceja y reafirmar el tejido con puntos internos levantando la ceja). Beneficios: No deja cicatriz visible. Y Contras: Puede llegar a caerse la cola de la ceja en menor tiempo (No especificado).</li>
-			<li><span>Cirugía de levantamiento (Pexia)</span> de la ceja por vía directa realizando una pequeña resección de piel por encima de la ceja. Contras: Deja cicatriz lineal que se puede cubrir con maquillajes. Y Beneficios: Tiene duración prolongada.</li>
-		</ul>	
+			<div class="cirugia-seccion-contenedor-seleccionado">
+				<h1>LEVANTAMIENTO DE CEJAS</h1>
+				<h2>Pexia de cejas</h2>
+				<p>Las cejas, son las dos líneas de vellos a solo un par de centímetros de nuestros ojos, ubicadas en la parte inferior de la frente, dando vida y armonía al rostro.</p>
+				<p>Es una característica que se puede hallar en varias especies de primates u otros animales, pero resalta especialmente sobre el rostro humano.
+				<h2>¿Qué función cumplen las cejas en el ser humano?</h2>
+				<p>Aunque se vean muy simples,  cumplen tres funciones: Protegen nuestros ojos, facilitan la comunicación y armonizan a la cara.</p>
+				<h2>¿Por qué se caen las cejas?</h2>
+				<p>Predisposición genética, envejecimiento, efectos no deseados por toxina botulínica, trauma entre otras.</p>
+				<h2>¿Qué tratamientos existen para levantar la ceja?</h2>
+				<ul>
+					<li><span>Toxina Botulínica A.</span></li>
+					<li><span>Vía endoscópica</span>(Por medio de un dispositivo con cámara, tomando como entrada el cuero cabelludo internamente en la frente hasta llegar por encima de la ceja y reafirmar el tejido con puntos internos levantando la ceja). Beneficios: No deja cicatriz visible. Y Contras: Puede llegar a caerse la cola de la ceja en menor tiempo (No especificado).</li>
+					<li><span>Cirugía de levantamiento (Pexia)</span> de la ceja por vía directa realizando una pequeña resección de piel por encima de la ceja. Contras: Deja cicatriz lineal que se puede cubrir con maquillajes. Y Beneficios: Tiene duración prolongada.</li>
+				</ul>	
+			</div>
 		<?php
 		break;
 			
