@@ -155,7 +155,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 5;
+		case 6;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>MENTOPLASTIA</h1>
@@ -194,7 +194,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 5;
+		case 7;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>LIFTING FACIAL</h1>
@@ -213,7 +213,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;		
-		case 6;
+		case 8;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>MENTOPLASTIA</h1>
@@ -254,21 +254,21 @@ if(isset($_POST['numero'])){
 		<?php
 		break;
 			
-		case 7;
-		?>
-			<div class="cirugia-seccion-contenedor-seleccionado">
-				
-			</div>
-		<?php
-		break;
-		case 8;
-		?>
-			<div class="cirugia-seccion-contenedor-seleccionado">
-				
-			</div>
-		<?php
-		break;
 		case 9;
+		?>
+			<div class="cirugia-seccion-contenedor-seleccionado">
+				
+			</div>
+		<?php
+		break;
+		case 10;
+		?>
+			<div class="cirugia-seccion-contenedor-seleccionado">
+				
+			</div>
+		<?php
+		break;
+		case 11;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>LEVANTAMIENTO DE MAMAS (Pexia)</h1>
@@ -291,7 +291,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break
-		;case 10;
+		;case 12;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>AUMENTO Y REDUCCIÓN DE MAMAS</h1>
@@ -332,7 +332,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 11;
+		case 13;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>GINECOMASTIA</h1>
@@ -351,7 +351,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 12;
+		case 14;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>ABDOMINOPLASTIA</h1>
@@ -397,7 +397,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 13;
+		case 15;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>AUMENTO DE GLUTEOS</h1>
@@ -435,7 +435,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;	
-		case 14;
+		case 16;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>POSTBARIÁTRICOS</h1>
