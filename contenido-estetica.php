@@ -15,7 +15,7 @@ if(isset($_POST['numero'])){
 		case 1;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
-				<h1>TOXINA BOTULÍNICA TIPO A - BOTOX®</h1> 
+				<h1>TOXINA BOTULÍNICA TIPO A BOTOX®</h1> 
 				<p>La toxina Botulínica es una neurotoxina elaborada a partir de la bacteria denominada Clostridium botulinum, su función es evitar la unión entre el nervio y el músculo por un juego de roles entre la toxina Botulínica A y las sustancias químicas que permiten que se unan el músculo y el nervio para producir la contracción.</p>
 				<p>En los tratamientos cosméticos el papel de la toxina Botulínica se traduce en relajar el músculo que hace marcar las líneas de expresiones, ya sean en la región de la frente, alrededor de los ojos, labios o mentón principalmente.</p>
   				<h2>¿La toxina sirve para rellenar?</h2>
@@ -34,7 +34,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>SENSUALIZACIÓN DE LABIOS</h1>
-				<p>El labio es una estructura de la cara que tiene la función de retener los alimentos, el primer contacto (labio-pezón) se da en la alimentación que da la madre, posteriormente ayuda en el habla como método de comunicación, la cosmética del labio da un aspecto de armonía y sensualidad.</p>
+				<p>El labio es una estructura de la cara que tiene la función de retener los alimentos, el primer contacto (labio-pezón) se da en la alimentación que da la madre; posteriormente ayuda en el habla como método de comunicación, la cosmética del labio da un aspecto de armonía y sensualidad.</p>
 				<h2>¿Cuáles son los métodos beneficiosos que embellecen el labio?</h2>
 				<p>Los más utilizados son la grasa corporal, el plasma rico en plaquetas y el ácido hialurónico, cualquier otra sustancia diferente a éstas no son recomendadas por sus efectos colaterales o reacciones alérgicas.</p>
 				<h2>¿Quiénes se pueden hacer rellenos en los labios?</h2>
@@ -86,7 +86,7 @@ if(isset($_POST['numero'])){
 				<p>El objetivo es retroceder las señales comunes del envejecimiento de la piel en el área facial, cuello y manos sin dejar de destacar el efecto positivo que tiene en las cicatrices hiperpigmentadas y/o elevadas.</p>
 				<h2>¿Qué sucede con el plasma rico en plaquetas (PRP) en el cabello?</h2>
 				<p>Es una técnica que permite aislar y utilizar los factores de crecimiento presentes en la sangre del propio paciente para potenciar, acelerar y estimular la regeneración de los tejidos.</p>
-				<p>Se puede complementar con mesoterapia acompañada con nutrientes, factor de crecimiento, y estimulantes del crecimiento del cabello.</p>
+				<p>Se puede complementar con mesoterapia acompañada con nutrientes, factor de crecimiento, y estimulantes del crecimiento capilar.</p>
 			</div>
 		<?php
 		break;
@@ -111,7 +111,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>CICATRICES</h1>
-				<p>Es el resultado de la cicatrización en los tejidos después de un trauma o cuerpo extraño. Principalmente basándonos en la piel los tratamientos varían según el tipo de cicatriz, ya sea en la forma, borde, elevación, profundidad, extensión e inclusive la localización que comprometa funcionalmente.</p>
+				<p>Es el resultado del cierre de los tejidos después de un trauma o cuerpo extraño. Principalmente basándonos en la piel los tratamientos varían según el tipo de cicatriz, ya sea en la forma, borde, elevación, profundidad, extensión e inclusive la localización que comprometa funcionalmente.</p>
 				<p>Las cicatrices elevadas pueden estar producidas por una prolongación en el tiempo inflamatorio de  la cicatrización y puede estar desfavorecido por factores genéticos (frecuentes en raza negra) que aumentan esa posibilidad de producirlos;  la CICATRIZ HIPERTRÓFICA está limitada a los bordes originales de la herida, mientras que el QUELOIDE se extiende más allá de los bordes de la lesión original.</p>
 				<h2>¿Cuáles son los tratamientos en la actualidad?</h2>
 				<p>Los tratamientos varían, desde el uso de placas siliconadas, mesoterapias con corticoides, cirugías para reducirlos, radioterapia, láser, 5-fluorouracilo (5-FU) o tratamientos combinados.</p>
