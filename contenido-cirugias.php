@@ -216,59 +216,22 @@ if(isset($_POST['numero'])){
 		case 8;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
-				<h1>MENTOPLASTIA</h1>
-				<p>La cirugía del mentón (también llamada genioplastia) es un procedimiento que busca la proyección del mentón.</p>
-				<p>Se debe realizar en caso de microgenias (mentones pequeños con mandíbulas de tamaño y posición normal). Un error muy frecuente consiste en recurrir a mentoplastias (con prótesis o con osteotomía) para camuflar retrognatias o micrognatias (es decir, posiciones mandibulares retrasadas o mandíbulas pequeñas en su totalidad, no exclusivamente el mentón), lo cual empeora el resultado estético final (dejando un "mentón de bruja"). Estos casos deben ser tratados mediante cirugía ortognática con ortodoncia pre y postquirúrgica y no mediante mentoplastia.</p>
-				<h2>PROTESIS DE MENTÓN</h2>
-				<p>Se implanta una prótesis de silicona u otro material, de pequeñas dimensiones, cuya textura y dureza se asemeje al hueso, proyectando un mentón armónico.</p>
-				<p>El abordaje puede ser por dentro de la boca o por debajo del mentón entrando por piel. </p>
-				<p>El procedimiento es ambulatorio por lo que no requiere internación/Hospitalización.</p>
+				<h1>NANOFAT FACIAL</h1>
+				<p>La cirugía de rellenos faciales con tu propia grasa. Es increíble cómo avanza la cirugía plástica, el mundo de la cosmética y los beneficios de rejuvenecer y mejorar tu aspecto con tu propia grasa.</p>
+				<p>Es un procedimiento de tiempo corto que se realiza por un profesional en un medio estéril para armonizar tu rostro.</p>
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 1 Hora.</li>
-					<li><i class="fas fa-tint"></i> Anestesia: Local y/o sedación.</li>
+					<li><i class="fas fa-tint"></i> Anestesia: Local.</li>
 					<li><i class="fas fa-bed"></i> Internación: No.</li>
 					<li><i class="far fa-file"></i> Recuperación: 2 semanas.</li>
-					<li><i class="fas fa-eye"></i> Efectos: Se logran ver a los 3 meses.</li>
-					<li><i class="fas fa-briefcase"></i> Reingreso laboral: a los 5 días.</li>
+					<li><i class="fas fa-eye"></i> Efectos: 3 meses.</li>
+					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: 72 horas</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
 				</ul>
-				<h2>OSTEOTOMIA DESLIZANTE</h2>
-				<p>Esta intervención es practicada en mayor frecuencia por cirujanos plasticos, otorrionolaringologos con entrenamiento en cirugia plastica facial y Cirujano maxilofacial. </p>
-				<p>Consiste en hacer mediante un abordaje dentro de la boca un corte en la mandíbula por debajo de las raíces de los dientes y del nervio dentario, con el fin de avanzar el mentón, que es fijado posteriormente con material para dar soporte en la posición planificada.</p>
-				<h2>AUMENTO CON RELLENOS</h2>
-				<p>Otro de los métodos que están actualmente en alza son las llamadas mentoplastias sin cirugía mediante inyecciones de sustancias compatibles con el ser humano. una de las más famosas es con ácido hialurónico, una sustancia muy utilizada en el entorno de las cirugías estéticas.</p>
-				<p><span>Beneficios: </span>En pacientes con alto riesgo de una cirugía de les puede brindar la opción de rellenos, pero también es desventaja que éste método no es permanente y sus efectos desaparecen al cabo del año aproximadamente.</p>
-				<h2>GRASA AUTÓLOGA (PROPIA)</h2>
-				<p>Al igual que con el ácido hialurónico, está técnica utiliza la grasa propia del paciente de otra zona del cuerpo para rellenar el mentón retraído. </p>
-				<p>Los riesgos son mínimos ya que siendo grasa propia, no existe rechazo alguno. De nuevo, la desventaja es que se reabsorbe pasado un tiempo.</p>
-				<ul>
-					<li><i class="far fa-clock"></i> Tiempo: 30 Minutos.</li>
-					<li><i class="fas fa-tint"></i> Anestesia: Local y/o sedación.</li>
-					<li><i class="fas fa-bed"></i> Internación: No.</li>
-					<li><i class="far fa-file"></i> Recuperación: 2 semanas.</li>
-					<li><i class="fas fa-eye"></i> Efectos: Se logran ver a los 3 meses.</li>
-					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: 5 días.</li>
-					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
-				</ul>				
 			</div>
 		<?php
 		break;
-			
 		case 9;
-		?>
-			<div class="cirugia-seccion-contenedor-seleccionado">
-				
-			</div>
-		<?php
-		break;
-		case 10;
-		?>
-			<div class="cirugia-seccion-contenedor-seleccionado">
-				
-			</div>
-		<?php
-		break;
-		case 11;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>LEVANTAMIENTO DE MAMAS (Pexia)</h1>
@@ -291,7 +254,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break
-		;case 12;
+		;case 10;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>AUMENTO Y REDUCCIÓN DE MAMAS</h1>
@@ -332,7 +295,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 13;
+		case 11;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>GINECOMASTIA</h1>
@@ -351,7 +314,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 14;
+		case 12;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>ABDOMINOPLASTIA</h1>
@@ -397,7 +360,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-		case 15;
+		case 13;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>AUMENTO DE GLUTEOS</h1>
@@ -435,7 +398,7 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;	
-		case 16;
+		case 14;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>POSTBARIÁTRICOS</h1>
