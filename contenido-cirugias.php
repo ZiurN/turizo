@@ -129,8 +129,8 @@ if(isset($_POST['numero'])){
 				<h2>¿Qué tratamientos existen para levantar la ceja?</h2>
 				<ul>
 					<li><span>Toxina Botulínica A.</span></li>
-					<li><span>Vía endoscópica: </span>Por medio de un dispositivo con cámara, tomando como entrada el cuero cabelludo internamente en la frente hasta llegar por encima de la ceja y reafirmar el tejido con puntos internos levantando la ceja, no deja cicatriz visible pero puede llegar a caerse la cola de la ceja en menor tiempo (No especificado).</li>
-					<li><span>Cirugía de levantamiento (Pexia): </span> Levantamiento de la ceja por vía directa realizando una pequeña resección de piel por encima de la ceja. Contras: Deja cicatriz lineal que se puede cubrir con maquillajes. Y Beneficios: Tiene duración prolongada.</li>
+					<li><span>Vía endoscópica:</span> Por medio de un dispositivo con cámara, tomando como entrada el cuero cabelludo internamente en la frente hasta llegar por encima de la ceja y reafirmar el tejido con puntos internos levantando la ceja, no deja cicatriz visible pero puede llegar a caerse la cola de la ceja en menor tiempo (No especificado).</li>
+					<li><span>Cirugía de levantamiento (Pexia):</span> Levantamiento de la ceja por vía directa realizando una pequeña resección de piel por encima de la ceja. Contras: Deja cicatriz lineal que se puede cubrir con maquillajes. Y Beneficios: Tiene duración prolongada.</li>
 				</ul>	
 			</div>
 		<?php
