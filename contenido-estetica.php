@@ -16,7 +16,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>TOXINA BOTULÍNICA TIPO A - BOTOX®</h1> 
-				<p>La toxina Botulínica es una neurotoxina elaborada a partir de la bacteria denominada Clostridium botulinum, su función es evitar la unión entre el nervio y el músculo por un juego de roles entre la toxina Botulínica A y las sustancias químicas que permiten que se una el músculo y el nervio para producir la contracción.</p>
+				<p>La toxina Botulínica es una neurotoxina elaborada a partir de la bacteria denominada Clostridium botulinum, su función es evitar la unión entre el nervio y el músculo por un juego de roles entre la toxina Botulínica A y las sustancias químicas que permiten que se unan el músculo y el nervio para producir la contracción.</p>
 				<p>En los tratamientos cosméticos el papel de la toxina Botulínica se traduce en relajar el músculo que hace marcar las líneas de expresiones, ya sean en la región de la frente, alrededor de los ojos, labios o mentón principalmente.</p>
   				<h2>¿La toxina sirve para rellenar?</h2>
 				<p>No. Para aclarar conceptos es necesario que sepas que la función de la toxina es relajar los músculos en la cara, mejorando las líneas de expresiones dinámicas y estáticas.</p>
