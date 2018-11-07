@@ -22,13 +22,20 @@
   	<nav class="contenedor-menu-circular" id="contenedor-menu-circular">
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menulogo.svg'?>
     	<div id="menu-circular" class="menu-circular">
-			<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menu2.svg';?>
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menu2.svg'?>	
    		</div>
     	<img class="logo-texto" id="logo-texto" src="/img/texto.svg" alt=""> 
 	</nav>
   <section id="content">
     <article id="inicio-seccion" class="activa">
       	<div id="imagen-fondo" class="imagen-fondo">
+			<ul class="palabras">
+				<li class="palabra" id="TuMejorVersion"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/tumejorversion.svg'?></li>
+				<li class="palabra" id="Belleza"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Belleza.svg'?></li>
+				<li class="palabra" id="Calidad"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Calidad.svg'?></li>
+				<li class="palabra" id="Cambios"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Cambios.svg'?></li>
+				<li class="palabra" id="Confianza"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Confianza.svg'?></li>
+			</ul>
 		</div>
     </article>
     <article id="cirugia-seccion" class="off">

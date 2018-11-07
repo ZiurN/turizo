@@ -28,6 +28,18 @@ function init(){
 	} );
 	
 
+	var textosInicio = document.getElementsByClassName('palabra');
+	
+	window.addEventListener('mousemove',function(e){
+		var x = e.clientX;
+		var y = e.clientY;
+		for (var i=0; i<textosInicio.length; i++){
+			textosInicio[i].style.transform = "translate("+x/10+"px,"+y/10+"px)";
+			console.log("translate("+x/10+"px,"+y/10+")");
+		}
+	},false);
+	
+	
 	window.addEventListener('load', function(){
 		asignarListeners(itemsMenu);
 		feedInstagram();
@@ -361,7 +373,6 @@ function init(){
 			dots[slideIndex - 1].classList.add('fas');
 		}
 
-		}
-	
+	}
 
 }

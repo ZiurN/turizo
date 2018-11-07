@@ -46,6 +46,8 @@
 	transform-origin: 50%
 	filter: opacity(1)
 	+transicionTodo(0.9s)
+.palabra
+	position: absolute
 #formacion, #logo, #estetica, #cirugia, #contacto
 	.st1
 		fill: #0096A9
@@ -56,8 +58,6 @@
 		.st1		
 			fill-opacity: 0.4
 			+transicionTodo(0.9s)
-.textos-inicio
-	display: none
 #TuMejorVersion, #Calidad, #Cambios, #Confianza, #Belleza
 	fill: #FFFFFF
 	fill-opacity: 0.3
@@ -65,3 +65,8 @@
 	&:hover
 		fill-opacity: 0.9
 		+transicionTodo(0.5s)
+#Calidad, #Cambios, #Confianza, #Belleza
+	display: none
+#TuMejorVersion
+	display: block
+	bottom: 0%
