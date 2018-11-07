@@ -82,7 +82,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>PLASMA RICO EN PLAQUETAS</h1>
-				<p>Ws un procedimiento autólogo, es decir, que se realiza con tu propia sangre, la cual es extraída y tratada para obtener nutrientes que te aportan resultados fabulosos. Imagínate encontrarte contigo y verte en el espejo al despertar y notar un cambio en la luminosidad de la piel del rostro, cuello y manos, creando un efecto de piel tersa e hidratada, de verdad vale la pena.</p>
+				<p>Es un procedimiento autólogo, es decir, que se realiza con tu propia sangre, la cual es extraída y tratada para obtener nutrientes que te aportan resultados fabulosos. Imagínate encontrarte contigo y verte en el espejo al despertar y notar un cambio en la luminosidad de la piel del rostro, cuello y manos, creando un efecto de piel tersa e hidratada, de verdad vale la pena.</p>
 				<p>El objetivo es retroceder las señales comunes del envejecimiento de la piel en el área facial, cuello y manos sin dejar de destacar el efecto positivo que tiene en las cicatrices hiperpigmentadas y/o elevadas.</p>
 				<h2>¿Qué sucede con el plasma rico en plaquetas (PRP) en el cabello?</h2>
 				<p>Es una técnica que permite aislar y utilizar los factores de crecimiento presentes en la sangre del propio paciente para potenciar, acelerar y estimular la regeneración de los tejidos.</p>
