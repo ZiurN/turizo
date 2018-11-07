@@ -95,7 +95,8 @@ iframe {
   -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
   -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
   -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
+  opacity: 0.3; }
 
 .contenedor-menu-circular-abajo-extendido {
   left: 29%;
