@@ -205,6 +205,25 @@ iframe {
     -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
     -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
 
+.textos-inicio {
+  display: none; }
+
+#TuMejorVersion, #Calidad, #Cambios, #Confianza, #Belleza {
+  fill: #FFFFFF;
+  fill-opacity: 0.3;
+  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s; }
+  #TuMejorVersion:hover, #Calidad:hover, #Cambios:hover, #Confianza:hover, #Belleza:hover {
+    fill-opacity: 0.9;
+    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
+    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s; }
+
 .st0 {
   fill: #0096A9;
   fill-opacity: 0.4; }
@@ -667,7 +686,8 @@ article {
   .contenedor-menu-circular {
     height: 70vh;
     top: 8%;
-    left: 5%;
+    left: 32%;
+    width: 35vw;
     transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
     -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
     -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
@@ -699,7 +719,7 @@ article {
   .menulogo {
     width: 80px;
     height: 80px;
-    left: 43%;
+    left: 34%;
     top: 30%; }
 
   .menu-logo-abajo {
@@ -713,9 +733,9 @@ article {
     left: 34%; }
 
   .logo-texto {
-    width: 40%;
+    width: 70%;
     top: 73%;
-    left: 30%; }
+    left: 15%; }
 
   .instagram-header {
     width: 59%;
@@ -847,9 +867,9 @@ article {
 
   .contenedor-menu-circular {
     position: absolute;
-    width: 100%;
+    width: 40%;
     top: 10%;
-    left: 0; }
+    left: 30%; }
 
   .contenedor-menu-circular-abajo {
     top: 0;
@@ -859,8 +879,8 @@ article {
     padding: 1rem; }
 
   .logo-texto {
-    width: 45%;
-    left: 27.5%; }
+    width: 70%;
+    left: 15%; }
 
   .logo-texto-lateral {
     display: block;
@@ -876,7 +896,7 @@ article {
     width: 150px;
     height: 150px;
     top: 25%;
-    left: 43%; }
+    left: 34%; }
 
   .menu-logo-abajo-extendido {
     width: 30%;
@@ -905,7 +925,10 @@ article {
 
   .contacto-contenido {
     height: 100%;
-    overflow: auto; } }
+    overflow: auto; }
+
+  .textos-inicio {
+    display: block; } }
 @media only screen and (min-width: 1200px) {
   .contenedor-menu-circular-abajo {
     width: 350px;
@@ -913,14 +936,14 @@ article {
     top: 0%; }
 
   .menulogo {
-    left: 46%; }
+    left: 37%; }
 
   .menu-logo-abajo-extendido {
     left: 35%; }
 
   .logo-texto {
-    width: 25%;
-    left: 37.5%; }
+    width: 60%;
+    left: 20%; }
 
   .logo-texto-lateral {
     width: 65%;

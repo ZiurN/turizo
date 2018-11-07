@@ -138,7 +138,7 @@
 						<img src="http://www.enriqueojeda.com/images/rinoplastia/rinoplastiaarequipa2.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
-						<h1>NanoFat/MicroFat</h1>
+						<h1>NanoFat / MicroFat</h1>
 						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">						
 					</li>
 					<li class="estetica-seccion-item">
@@ -193,7 +193,7 @@
 					<img src="/img/logoSimboloColor.svg" alt="">
 			  </div>
 			  <div class="logo-seccion-caption">
-				  <p class="logo-seccion-cita">"El logo representa la belleza del cuerpo humano fusionada en un solo círculo"</p>
+				  <p class="logo-seccion-cita">"El logo representa la belleza del cuerpo humano fusionada en un solo círculo."</p>
 				  <div class="firma">
 					  <div class="firma-turizo">Dr. Turizo José Miguel</div>
 					  <div class="firma-cirujano">Cirujano Plástico, Estético y reconstructivo</div>
