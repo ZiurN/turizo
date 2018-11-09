@@ -31,13 +31,19 @@ function init(){
 	var textosInicio = document.getElementsByClassName('palabra');
 	
 	window.addEventListener('mousemove',function(e){
-		var x = e.clientX;
-		var y = e.clientY;
+		var anchoPantalla = screen.width;
+		var altoPantalla = screen.height;
+		var wmedio = anchoPantalla/2;
+		var hmedio = altoPantalla/2;
+		var x = wmedio-e.clientX;
+		var y = hmedio-e.clientY;
+		
 		for (var i=0; i<textosInicio.length; i++){
+			
 			textosInicio[i].style.transform = "translate("+x/10+"px,"+y/10+"px)";
 			console.log("translate("+x/10+"px,"+y/10+")");
 		}
-	},false);
+	});
 	
 	
 	window.addEventListener('load', function(){

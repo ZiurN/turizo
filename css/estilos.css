@@ -193,36 +193,36 @@ iframe {
 #formacion .st1, #logo .st1, #estetica .st1, #cirugia .st1, #contacto .st1 {
   fill: #0096A9;
   fill-opacity: 0;
-  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+  transition: all linear 0.9s;
+  -webkit-transition: all linear 0.9s;
+  -moz-transition: all linear 0.9s;
+  -ms-transition: all linear 0.9s;
+  -o-transition: all linear 0.9s; }
 #formacion:hover, #logo:hover, #estetica:hover, #cirugia:hover, #contacto:hover {
   cursor: pointer; }
   #formacion:hover .st1, #logo:hover .st1, #estetica:hover .st1, #cirugia:hover .st1, #contacto:hover .st1 {
     fill-opacity: 0.4;
-    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
-    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
+    transition: all linear 0.9s;
+    -webkit-transition: all linear 0.9s;
+    -moz-transition: all linear 0.9s;
+    -ms-transition: all linear 0.9s;
+    -o-transition: all linear 0.9s; }
 
 #TuMejorVersion, #Calidad, #Cambios, #Confianza, #Belleza {
   fill: #FFFFFF;
   fill-opacity: 0.3;
-  transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-  -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-  -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-  -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-  -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s; }
+  transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s; }
   #TuMejorVersion:hover, #Calidad:hover, #Cambios:hover, #Confianza:hover, #Belleza:hover {
     fill-opacity: 0.9;
-    transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-    -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-    -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-    -ms-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s;
-    -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.5s; }
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s; }
 
 #Calidad, #Cambios, #Confianza, #Belleza {
   display: none; }
@@ -762,7 +762,12 @@ article {
     height: 15rem; }
 
   #TuMejorVersion {
-    width: 50%; } }
+    width: 50%; }
+
+  #Confianza {
+    display: block;
+    width: 8%;
+    right: 5%; } }
 @media only screen and (min-width: 768px) {
   .contenedor-menu-circular {
     width: 70vw;
