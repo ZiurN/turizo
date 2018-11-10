@@ -858,7 +858,16 @@ article {
   #Belleza {
     width: 20%;
     top: 50%;
-    left: 10%; } }
+    left: 10%; }
+
+  #Detalles {
+    width: 52%;
+    left: 30%; }
+
+  #Diferencia {
+    left: 53%;
+    width: 8%;
+    top: 8%; } }
 @media only screen and (min-width: 768px) and (orientation: landscape) {
   .contenedor-menu-circular {
     height: 60vh; }
@@ -967,7 +976,20 @@ article {
     overflow: auto; }
 
   .textos-inicio {
-    display: block; } }
+    display: block; }
+
+  #Confianza {
+    width: 5%;
+    right: 99%;
+    left: 7%; }
+
+  #Cambios {
+    width: 7%; }
+
+  #Diferencia {
+    left: 70%;
+    width: 4%;
+    top: 19%; } }
 @media only screen and (min-width: 1200px) {
   .contenedor-menu-circular-abajo {
     width: 350px;
@@ -1002,4 +1024,23 @@ article {
     padding: 2rem 2rem; }
 
   .linea-titulo {
-    width: 100%; } }
+    width: 100%; }
+
+  #TuMejorVersion {
+    width: 30%;
+    bottom: 6%; }
+
+  #Confianza {
+    width: 3%;
+    top: 9%;
+    left: 4%; }
+
+  #Belleza {
+    width: 15%; }
+
+  #Cambios {
+    width: 4%; }
+
+  #Detalles {
+    width: 25%;
+    left: 42%; } }
