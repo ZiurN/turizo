@@ -208,23 +208,23 @@ iframe {
     -ms-transition: all linear 0.9s;
     -o-transition: all linear 0.9s; }
 
-#TuMejorVersion, #Calidad, #Cambios, #Confianza, #Belleza {
-  fill: #FFFFFF;
-  fill-opacity: 0.3;
+#TuMejorVersion, #Calidad, #Cambios, #Confianza, #Belleza, #Detalles, #Diferencia {
+  fill: #0096A9;
+  fill-opacity: 0.1;
   transition: all linear 0.5s;
   -webkit-transition: all linear 0.5s;
   -moz-transition: all linear 0.5s;
   -ms-transition: all linear 0.5s;
   -o-transition: all linear 0.5s; }
-  #TuMejorVersion:hover, #Calidad:hover, #Cambios:hover, #Confianza:hover, #Belleza:hover {
-    fill-opacity: 0.9;
+  #TuMejorVersion:hover, #Calidad:hover, #Cambios:hover, #Confianza:hover, #Belleza:hover, #Detalles:hover, #Diferencia:hover {
+    fill-opacity: 0.5;
     transition: all linear 0.5s;
     -webkit-transition: all linear 0.5s;
     -moz-transition: all linear 0.5s;
     -ms-transition: all linear 0.5s;
     -o-transition: all linear 0.5s; }
 
-#Calidad, #Cambios, #Confianza, #Belleza {
+#Calidad, #Cambios, #Confianza, #Belleza, #Detalles, #Diferencia {
   display: none; }
 
 #TuMejorVersion {
@@ -836,7 +836,7 @@ article {
     width: 25%;
     margin: 10rem auto auto; }
 
-  #Calidad, #Cambios, #Confianza, #Belleza {
+  #Calidad, #Cambios, #Confianza, #Belleza, #Detalles, #Diferencia {
     display: block; }
 
   #TuMejorVersion {

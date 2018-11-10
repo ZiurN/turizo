@@ -125,7 +125,7 @@ if(isset($_POST['numero'])){
 				<h2>¿Qué función cumplen las cejas en el ser humano?</h2>
 				<p>Aunque se vean muy simples,  cumplen tres funciones: Protegen nuestros ojos, facilitan la comunicación y armonizan a la cara.</p>
 				<h2>¿Por qué se caen las cejas?</h2>
-				<p>Predisposición genética, envejecimiento, efectos no deseados por toxina botulínica, trauma entre otras.</p>
+				<p>Predisposición genética, envejecimiento, efectos no deseados por toxina botulínica, trauma, entre otras.</p>
 				<h2>¿Qué tratamientos existen para levantar la ceja?</h2>
 				<ul>
 					<li><span>Toxina Botulínica A.</span></li>

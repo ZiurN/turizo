@@ -35,6 +35,8 @@
 				<li class="palabra" id="Calidad"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Calidad.svg'?></li>
 				<li class="palabra" id="Cambios"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Cambios.svg'?></li>
 				<li class="palabra" id="Confianza"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Confianza.svg'?></li>
+				<li class="palabra" id="Diferencia"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Diferencia.svg'?></li>
+				<li class="palabra" id="Detalles"><?php include $_SERVER['DOCUMENT_ROOT'].'/img/SVG/Detalles.svg'?></li>
 			</ul>
 		</div>
     </article>
