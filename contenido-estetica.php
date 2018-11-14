@@ -65,7 +65,7 @@ if(isset($_POST['numero'])){
 				<h1>PEELING QUÍMICO</h1>
 				<p>Se trata de la aplicación de una solución química, destinada a mejorar y suavizar la textura de la piel de la cara, eliminando sus capas exteriores dañadas. A menudo se utilizan para este fin el fenol, el ácido tricloroacético (TCA) y los ácidos alfa-hidróxidos.</p>
 				<div id='visor-album' class='visor-album'>
-					<img class="visor-imagen-sola" src="/img/cirugia-estetica/peeling.jpeg" alt="">
+					<img class="visor-imagen-sola" src="/img/cirugia-estetica/peeling.jpg" alt="">
 				</div>
 			</div>
 		<?php
