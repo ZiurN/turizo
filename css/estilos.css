@@ -209,7 +209,7 @@ iframe {
     -o-transition: all linear 0.9s; }
 
 #TuMejorVersion, #Calidad, #Cambios, #Confianza, #Belleza, #Detalles, #Diferencia {
-  fill: #0096A9;
+  fill: grey;
   fill-opacity: 0.1;
   transition: all linear 0.5s;
   -webkit-transition: all linear 0.5s;
@@ -377,7 +377,8 @@ article {
     stroke-width: 4px; }
 
 #inicio-seccion {
-  background-image: url(/img/inicio.JPG); }
+  background-image: url(/img/inicio.JPG);
+  background-position-x: 75%; }
 
 #cirugia-seccion {
   background-image: url(/img/servicios2.jpg); }
@@ -386,7 +387,7 @@ article {
   background-image: url(/img/formacion2.jpg); }
 
 #logo-seccion {
-  background-color: rgba(0, 150, 169, 0.3); }
+  background-image: url(/img/logo2.jpg); }
 
 #estetica-seccion {
   background-image: url(/img/estetica2.jpg); }
@@ -542,7 +543,8 @@ article {
   width: 20%;
   margin: 0; }
   .redes a i {
-    font-size: 2rem; }
+    font-size: 2rem;
+    color: #0096A9; }
 
 .redes-texto {
   width: 100%;
@@ -568,7 +570,7 @@ article {
   border: none;
   border-bottom: 1px solid white;
   height: 2rem;
-  width: 90%;
+  width: 100%;
   margin: 1rem 0 1.5rem 0;
   z-index: 2;
   transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
@@ -834,7 +836,7 @@ article {
 
   .logo-seccion-logo {
     width: 25%;
-    margin: 10rem auto auto; }
+    margin: auto auto; }
 
   #Calidad, #Cambios, #Confianza, #Belleza, #Detalles, #Diferencia {
     display: block; }
@@ -943,7 +945,7 @@ article {
   .menulogo {
     width: 150px;
     height: 150px;
-    top: 25%;
+    top: 27%;
     left: 34%; }
 
   .menu-logo-abajo-extendido {
@@ -1000,7 +1002,7 @@ article {
     left: 37%; }
 
   .menu-logo-abajo-extendido {
-    left: 35%; }
+    left: 35% !important; }
 
   .logo-texto {
     width: 60%;

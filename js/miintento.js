@@ -41,15 +41,26 @@ function init(){
 		for (var i=0; i<textosInicio.length; i++){
 			
 			textosInicio[i].style.transform = "translate("+x/10+"px,"+y/10+"px)";
-			console.log("translate("+x/10+"px,"+y/10+")");
 		}
-	});
+	});	
+	
+	function centrarLogo(){
+		if(tipoPantalla === 2 && menuCentrado === true){
+			var tamanoLogoX = menuContenedor.clientWidth;
+			var desplazamientoX = (tamanoLogoX - 150)/2;
+			botonMenu.style.left = desplazamientoX+"px";
+		}else{
+			botonMenu.classList.toggle('menu-logo-abajo-extendido');
+			botonMenu.classList.remove('borde-animado');
+		}
+	}
 	
 	
 	window.addEventListener('load', function(){
 		asignarListeners(itemsMenu);
 		feedInstagram();
 		asignarAListas();
+		centrarLogo();
 	});
 	
 	window.addEventListener('click', function(){
@@ -86,8 +97,7 @@ function init(){
 		}
 		if(!menuCentrado){
 			menuContenedor.classList.toggle('contenedor-menu-circular-abajo-extendido');
-			botonMenu.classList.toggle('menu-logo-abajo-extendido');
-			botonMenu.classList.remove('borde-animado');
+			centrarLogo();
 		}
 		menuExtendido = !menuExtendido;
 			if(menuExtendido){

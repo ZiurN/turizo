@@ -179,13 +179,6 @@
 					 <?php include $_SERVER['DOCUMENT_ROOT'].'/img/boton.svg';?>
 				</div>
 				<div class="seccion-rellenar" id="estetica-seccion-rellenar-php">
-				
-				 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et impedit perspiciatis libero minima vero similique suscipit quos recusandae sed delectus aut dolore laborum obcaecati doloremque, omnis, maiores officiis. Voluptates, qui!
-				<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt culpa labore delectus. Ratione velit impedit nisi, minus ut omnis, blanditiis, neque laboriosam, cumque quod natus sint distinctio quos possimus. Cumque.</div>
-				<div>Molestiae eaque, fuga ullam explicabo deleniti vero nulla animi modi eum adipisci ipsa doloremque, accusamus, optio, inventore sed nobis beatae cumque similique magni minus? Omnis rem doloremque possimus dignissimos adipisci!</div>
-				<div>Atque, ipsum natus. Iusto quis voluptatem ipsa aperiam omnis consequatur dolores doloremque maxime sit, veniam ab. Harum qui error aliquam sint molestias corporis, enim architecto id, cumque, ullam dicta animi.</div>
-				<div>Officia distinctio amet, maiores veniam illo nesciunt sint deleniti, eaque voluptate modi minus blanditiis temporibus cum ipsum accusamus nostrum molestiae praesentium culpa voluptas. Repellat, modi doloribus adipisci eius consequatur odit.</div>
-				<div>Iusto aliquam a in sint, eveniet, sunt unde voluptates cum reprehenderit mollitia voluptas id consequuntur optio doloribus ut velit perferendis nemo impedit recusandae illo. Consequatur ullam veniam, doloremque dignissimos necessitatibus.</div>
 			</div>
 			</div>
 		</div>
@@ -267,7 +260,7 @@
 		<div class="seccion-contenido-contenedor">
 		   	<div class="formacion-seccion-parte formacion-seccion-intro">
 				<div class="formacion-seccion-imagen">
-					<img src="https://instagram.faep8-2.fna.fbcdn.net/vp/49fcbedd3d7d6a452df4e4ac004e9e8f/5C48EDB4/t51.2885-19/s150x150/42003610_280616479329116_46582811565490176_n.jpg" alt="">
+					<img src="/img/formacion.jpg" alt="">
 				</div>	
 				<div class="formacion-seccion-texto">
 				<p>El Dr. José Miguel Turizo Torres, nació en Agustín Codazzi, municipio localizado al noreste de Colombia en el Departamento del Cesar.</p>
