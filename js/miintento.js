@@ -43,36 +43,24 @@ function init(){
 			textosInicio[i].style.transform = "translate("+x/10+"px,"+y/10+"px)";
 		}
 	});	
-	
-	function centrarLogo(){
-		if(tipoPantalla === 2 && menuCentrado === true){
-			var tamanoLogoX = menuContenedor.clientWidth;
-			var desplazamientoX = (tamanoLogoX - 150)/2;
-			botonMenu.style.left = desplazamientoX+"px";
-		}else{
-			botonMenu.classList.toggle('menu-logo-abajo-extendido');
-			botonMenu.classList.remove('borde-animado');
-		}
-	}
-	
-	
 	window.addEventListener('load', function(){
 		asignarListeners(itemsMenu);
 		feedInstagram();
 		asignarAListas();
 		centrarLogo();
 	});
-	
 	window.addEventListener('click', function(){
 		if(menuExtendido === true){
 			mostrarMenu();
 		}
 	});
 	
-	botonMenu.addEventListener('click',function(e){
+	var mostrarMenuListener = function(e){
 		e.stopPropagation();
 		mostrarMenu();
-	}, true);
+	};
+	
+	botonMenu.addEventListener('click', mostrarMenuListener, true);
 	
 	function definidoPantalla(){
 		var anchoPantalla = screen.width;
@@ -86,7 +74,20 @@ function init(){
 		}
 		return tamanoPantalla;
 	}
-		
+	
+	function centrarLogo(){
+		if(tipoPantalla >= 1){
+			if(menuCentrado === true){
+				var tamanoLogoX = menuContenedor.clientWidth;
+				var desplazamientoX = (tamanoLogoX - 150)/2;
+				botonMenu.style.left = desplazamientoX+"px";
+			}else{
+				botonMenu.classList.toggle('menu-logo-abajo-extendido');
+				botonMenu.classList.remove('borde-animado');
+		   }
+		}
+	}
+	
 	function mostrarMenu(){
 		var menu = document.getElementById('menuextendido');	
 		menu.classList.toggle('menu-extendido');
@@ -97,7 +98,8 @@ function init(){
 		}
 		if(!menuCentrado){
 			menuContenedor.classList.toggle('contenedor-menu-circular-abajo-extendido');
-			centrarLogo();
+			botonMenu.classList.toggle('menu-logo-abajo-extendido');
+			botonMenu.classList.remove('borde-animado');
 		}
 		menuExtendido = !menuExtendido;
 			if(menuExtendido){
@@ -115,7 +117,6 @@ function init(){
 		var listaEstetica = document.getElementsByClassName('estetica-seccion-item');
 		
 		for(var i=0; i<listaCirugia.length; i++){
-			
 			const n = i;
 				listaCirugia[n].addEventListener("click", function(e){
 				e.stopPropagation();
@@ -124,7 +125,6 @@ function init(){
 		}
 		for(var j=0; j<listaEstetica.length; j++){
 			const m = j;
-			
 			listaEstetica[m].addEventListener("click", function(e){
 				e.stopPropagation();
 				
@@ -153,9 +153,12 @@ function init(){
 			}else if(tipoPantalla >= 1){
 				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.remove('menu-extendido-off');
-				botonMenu.classList.toggle('menu-logo-abajo');
+				botonMenu.classList.remove('menu-logo-abajo');
+				botonMenu.classList.remove('borde-animado');
+				botonMenu.removeEventListener('click', mostrarMenuListener, true);
 				logoTexto.classList.remove('logo-texto-opaco');
 				logoTexto.classList.add('logo-texto-lateral');
+				
 			}
 		}
 		menuCentrado = false;
@@ -166,7 +169,7 @@ function init(){
 		if(tipoPantalla === 2){
 			var anchoPantalla = screen.width;
 			var porcentaje = (1200/anchoPantalla)*100;
-			var porcentajeMargen = (100%-porcentaje)/2;
+			var porcentajeMargen = (100-porcentaje)/2;
 			var contenedorMenu = document.getElementById('contenedor-menu-circular');
 			if (!menuCentrado){
 				contenedorMenu.style.left = porcentajeMargen+"%";

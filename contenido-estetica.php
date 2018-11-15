@@ -75,8 +75,19 @@ if(isset($_POST['numero'])){
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>CONTORNO FACIAL </h1>
 				<p>Rellenos faciales con Ácido Hialurónico.</p>
+				
+				
 				<div id='visor-album' class='visor-album'>
-					<img class="visor-imagen-sola" src="/img/cirugia-estetica/Hialuronico.jpg" alt="">
+					<img class="visor-imagen" src="/img/cirugia-estetica/Hialuronico.jpg" alt="">
+					<img class="visor-imagen" src="/img/cirugia-estetica/hialuronico.jpeg" alt="">
+					<div class="botones-visor">
+						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
+						<div class="dots-contenedor">
+							<i class="dots fas fa-circle"></i>
+							<i class="dots far fa-circle"></i>
+						</div>
+						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
+					</div>
 				</div>
 			</div>
 		<?php

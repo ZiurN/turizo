@@ -387,13 +387,15 @@ article {
   background-image: url(/img/formacion2.jpg); }
 
 #logo-seccion {
-  background-image: url(/img/logo2.jpg); }
+  background-image: url(/img/logo2.jpg);
+  background-position-x: 65%; }
 
 #estetica-seccion {
   background-image: url(/img/estetica2.jpg); }
 
 #contacto-seccion {
-  background-image: url(/img/contacto2.jpg); }
+  background-image: url(/img/contacto2.jpg);
+  background-position-x: 11%; }
 
 .listado-cirugia {
   position: absolute;
@@ -949,7 +951,7 @@ article {
     left: 34%; }
 
   .menu-logo-abajo-extendido {
-    width: 30%;
+    width: 27%;
     height: 12%;
     left: 35%;
     top: 35%; }
@@ -1002,7 +1004,7 @@ article {
     left: 37%; }
 
   .menu-logo-abajo-extendido {
-    left: 35% !important; }
+    left: 38% !important; }
 
   .logo-texto {
     width: 60%;
