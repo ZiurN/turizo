@@ -17,6 +17,19 @@ function init(){
 	var listaContenedor2 = document.getElementById('estetica-seccion-listado');
 	var enBlanco1 = document.getElementById('cirugia-seccion-php');
 	var enBlanco2 = document.getElementById('estetica-seccion-php');
+	var textosInicio = document.getElementsByClassName('palabra');
+	var audio1 = document.getElementById('audio1');
+	var audio2 = document.getElementById('audio2');
+	
+	var mostrarMenuListener = function(e){
+		e.stopPropagation();
+		mostrarMenu();
+	};
+	
+	var reproducirSonidoListener = function(e){
+		e.stopPropagation();
+		reproducirSonido(audio1);
+	};
 	
 	botonVolver1.addEventListener('click', function(){
 			listaContenedor1.classList.toggle('listado-cirugia-corrido');
@@ -26,9 +39,6 @@ function init(){
 			listaContenedor2.classList.toggle('listado-cirugia-corrido');
 			enBlanco2.classList.toggle('contenido-seccion-mostrado');
 	} );
-	
-
-	var textosInicio = document.getElementsByClassName('palabra');
 	
 	window.addEventListener('mousemove',function(e){
 		var anchoPantalla = screen.width;
@@ -55,12 +65,8 @@ function init(){
 		}
 	});
 	
-	var mostrarMenuListener = function(e){
-		e.stopPropagation();
-		mostrarMenu();
-	};
-	
 	botonMenu.addEventListener('click', mostrarMenuListener, true);
+	botonMenu.addEventListener('click', reproducirSonidoListener, true);
 	
 	function definidoPantalla(){
 		var anchoPantalla = screen.width;
@@ -86,6 +92,10 @@ function init(){
 				botonMenu.classList.remove('borde-animado');
 		   }
 		}
+	}
+	
+	function reproducirSonido(sonido){
+		sonido.play();
 	}
 	
 	function mostrarMenu(){
@@ -144,6 +154,7 @@ function init(){
 		var menu = document.getElementById('menuextendido');
 		if(menuCentrado){
 			if(tipoPantalla === 0){
+				reproducirSonido(audio2);
 				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.toggle('menu-extendido');
 				logoTexto.style.display = "none";
@@ -151,11 +162,13 @@ function init(){
 				menuExtendido = !menuExtendido;
 				
 			}else if(tipoPantalla >= 1){
+				reproducirSonido(audio2);
 				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.remove('menu-extendido-off');
 				botonMenu.classList.remove('menu-logo-abajo');
 				botonMenu.classList.remove('borde-animado');
 				botonMenu.removeEventListener('click', mostrarMenuListener, true);
+				botonMenu.removeEventListener('click', reproducirSonidoListener, true);
 				logoTexto.classList.remove('logo-texto-opaco');
 				logoTexto.classList.add('logo-texto-lateral');
 				
