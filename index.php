@@ -16,7 +16,6 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Allura|Great+Vibes|Italianno|Parisienne" rel="stylesheet"> 
 </head>
-
 <body>
 <section class="main" id="main">
   	<nav class="contenedor-menu-circular" id="contenedor-menu-circular">
