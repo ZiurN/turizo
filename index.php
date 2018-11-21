@@ -28,6 +28,7 @@
 		<audio id="audio2" src="/audio/Tono2.mp3"></audio>
 	</nav>
   <section id="content">
+	  
     <article id="inicio-seccion" class="activa">
       	<div id="imagen-fondo" class="imagen-fondo">
 			<ul class="palabras">
