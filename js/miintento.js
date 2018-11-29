@@ -101,15 +101,14 @@ function init(){
 	function mostrarMenu(){
 		var menu = document.getElementById('menuextendido');	
 		menu.classList.toggle('menu-extendido');
-		
+		botonMenu.classList.toggle('borde-animado');
 		if(menuCentrado){
 			logoTexto.classList.toggle('logo-texto-opaco');
-			botonMenu.classList.toggle('borde-animado');
+			
 		}
 		if(!menuCentrado){
 			menuContenedor.classList.toggle('contenedor-menu-circular-abajo-extendido');
 			botonMenu.classList.toggle('menu-logo-abajo-extendido');
-			botonMenu.classList.remove('borde-animado');
 		}
 		menuExtendido = !menuExtendido;
 			if(menuExtendido){
@@ -152,6 +151,8 @@ function init(){
 	
 	function bajarMenu(){
 		var menu = document.getElementById('menuextendido');
+		botonMenu.classList.toggle('borde-animado');
+		botonMenu.removeEventListener('click', reproducirSonidoListener, true);
 		if(menuCentrado){
 			if(tipoPantalla === 0){
 				reproducirSonido(audio2);
@@ -168,7 +169,6 @@ function init(){
 				botonMenu.classList.remove('menu-logo-abajo');
 				botonMenu.classList.remove('borde-animado');
 				botonMenu.removeEventListener('click', mostrarMenuListener, true);
-				botonMenu.removeEventListener('click', reproducirSonidoListener, true);
 				logoTexto.classList.remove('logo-texto-opaco');
 				logoTexto.classList.add('logo-texto-lateral');
 				

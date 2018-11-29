@@ -219,6 +219,11 @@ if(isset($_POST['numero'])){
 				<h1>NANOFAT FACIAL</h1>
 				<p>La cirugía de rellenos faciales con tu propia grasa. Es increíble cómo avanza la cirugía plástica, el mundo de la cosmética y los beneficios de rejuvenecer y mejorar tu aspecto con tu propia grasa.</p>
 				<p>Es un procedimiento de tiempo corto que se realiza por un profesional en un medio estéril para armonizar tu rostro.</p>
+				
+				<div id='visor-album' class='visor-album'>
+					<img class="visor-imagen-sola" src="/img/cirugia-estetica/nanoFat.jpg" alt="">
+				</div>
+				
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 1 Hora.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local.</li>
