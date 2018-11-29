@@ -56,7 +56,7 @@
 						<h1>Liposucción
 							<br>Lipo4D
 						</h1>
-						<img src="img/botones/lipoboton.jpg" alt="">						
+						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">						
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Rinoplastia</h1>
@@ -64,7 +64,7 @@
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Otoplastia</h1>
-						<img src="img/botones/otoplastiaboton.jpg" alt="">	
+						<img src="http://www.institutomedicomallen.com/wp-content/uploads/2018/02/otoplastia-1140x570.jpg" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Blefaroplastia</h1>	
@@ -76,23 +76,23 @@
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Bichectomía</h1>
-						<img src="img/botones/bichetomiaboton.jpg" alt="">	
+						<img src="https://www.webconsultas.com/sites/default/files/styles/encabezado_articulo/public/temas/bolas-de-bichat.jpg" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Mentoplastia</h1>
-						<img src="img/botones/mentoplastiaboton.jpg" alt="">
+						<img src="http://dr-timoshenko.ru/uploads/mentoplastika/mentopl.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Lifting Facial</h1>
-						<img src="img/botones/lifting-facialboton.jpg" alt="">
+						<img src="https://www.drfernandezblanco.com/blog/wp-content/uploads/lifting-facial-1024x683.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>NanoFat Facial</h1>
-						<img src="img/botones/nanofacialboton.jpg" alt="">
+						<img src="http://dr-timoshenko.ru/uploads/mentoplastika/mentopl.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Levantamiento de Mamas</h1>
-						<img src="img/botones/levantamientomamasboton.jpg" alt="">
+						<img src="http://riomedicperu.com/wp-content/uploads/freshizer/943391aac2ae810d91e02ad4fde6f45a_biomedic@noticias-6-800-320-c.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Aumento y Reducción de Mamas</h1>
@@ -154,7 +154,7 @@
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Peeling químicos</h1>
-						<img src="img/botones/peeling2boton.jpg" alt="">
+						<img src="img/botones/peelingboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Contorno Facial</h1>
