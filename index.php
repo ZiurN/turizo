@@ -24,7 +24,7 @@
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menu2.svg'?>	
    		</div>
     	<img class="logo-texto" id="logo-texto" src="/img/texto.svg" alt=""> 
-		<audio id="audio1" src="/audio/Tono1.mp3"></audio>
+		<audio id="audio1" src="/audio/Tono3.mp3"></audio>
 		<audio id="audio2" src="/audio/Tono2.mp3"></audio>
 	</nav>
   <section id="content">
