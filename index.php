@@ -56,63 +56,63 @@
 						<h1>Liposucción
 							<br>Lipo4D
 						</h1>
-						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">						
+						<img src="img/botones/lipoboton.jpg" alt="">						
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Rinoplastia</h1>
-						<img src="http://www.enriqueojeda.com/images/rinoplastia/rinoplastiaarequipa2.jpg" alt="">	
+						<img src="img/botones/rinoboton.jpg" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Otoplastia</h1>
-						<img src="http://www.institutomedicomallen.com/wp-content/uploads/2018/02/otoplastia-1140x570.jpg" alt="">	
+						<img src="img/botones/otoplastiaboton.jpg" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Blefaroplastia</h1>	
-						<img src="https://www.vissum.com/wp-content/uploads/2018/01/blefaroplastia.png" alt="">	
+						<img src="img/botones/parpadosboton.jpg" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Levantamiento de Cejas</h1>	
-						<img src="https://www.vissum.com/wp-content/uploads/2018/01/blefaroplastia.png" alt="">	
+						<img src="img/botones/cejasboton.jpg" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Bichectomía</h1>
-						<img src="https://www.webconsultas.com/sites/default/files/styles/encabezado_articulo/public/temas/bolas-de-bichat.jpg" alt="">	
+						<img src="img/botones/bichetomiaboton.jpg" alt="">	
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Mentoplastia</h1>
-						<img src="http://dr-timoshenko.ru/uploads/mentoplastika/mentopl.jpg" alt="">
+						<img src="img/botones/mentoplastiaboton.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Lifting Facial</h1>
-						<img src="https://www.drfernandezblanco.com/blog/wp-content/uploads/lifting-facial-1024x683.jpg" alt="">
+						<img src="img/botones/liftingfacialboton.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>NanoFat Facial</h1>
-						<img src="http://dr-timoshenko.ru/uploads/mentoplastika/mentopl.jpg" alt="">
+						<img src="img/botones/nanofacialboton.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Levantamiento de Mamas</h1>
-						<img src="http://riomedicperu.com/wp-content/uploads/freshizer/943391aac2ae810d91e02ad4fde6f45a_biomedic@noticias-6-800-320-c.jpg" alt="">
+						<img src="img/botones/levantamientomamasboton.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Aumento y Reducción de Mamas</h1>
-						<img src="http://www.clinicaplastica.com.pe/blog/wp-content/uploads/2016/07/levantamiento-mamasjpg.jpg" alt="">			
+						<img src="img/botones/reduccionmamasboton.jpg" alt="">			
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Ginecomastia</h1>
-						<img src="https://i2.wp.com/www.clinicasanza.com/wp-content/uploads/2017/05/pectorales_ginecomastia_clinica-sanza.jpg?resize=999%2C678&ssl=1" alt="">
+						<img src="img/botones/ginecomastiaboton.jpg" alt="">
 					</li>
 					<li class="cirugia-seccion-item">
 						<h1>Abdominoplastia</h1>
-						<img src="http://www.clinicaplastica.com.pe/blog/wp-content/uploads/2016/07/levantamiento-mamasjpg.jpg" alt="">			
+						<img src="img/botones/abdominoplastiaboton.jpg" alt="">			
 					</li>					
 					<li class="cirugia-seccion-item">
 						<h1>Aumento de Gluteos</h1>		
-						<img src="https://www.clinicaelpinar.co/fotossubsecciones/macro_page_gluteoplastia_1504126109.jpg" alt="">
+						<img src="img/botones/gluteosboton.jpg" alt="">
 					</li>				
 					<li class="cirugia-seccion-item">
 						<h1>PostBariátricos</h1>
-						<img src="https://clinicaclever.com/wp-content/uploads/2017/10/LABIOS.jpg" alt="">
+						<img src="img/botones/bariatricoboton.jpg" alt="">
 					</li>
 				</ul>
 			</div>
@@ -138,41 +138,41 @@
 				<ul>
 					<li class="estetica-seccion-item">
 						<h1>Rejuvenecimiento Facial</h1>
-						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">
+						<img src="img/botones/rejuvenecimientoboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>BOTOX<br>Toxina Botulínica</h1>
-						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">						
+						<img src="img/botones/botoxboton.jpg" alt="">						
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Sensualización de labios</h1>
-						<img src="http://www.enriqueojeda.com/images/rinoplastia/rinoplastiaarequipa2.jpg" alt="">
+						<img src="img/botones/labiosboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>NanoFat / MicroFat</h1>
-						<img src="https://www.multiestetica.com/site/article/30290/27334/define-tu-figura-y-elimina-la-grasa-de-forma-efectiva-con-el-vaser-lipo-0_ai1.jpg" alt="">						
+						<img src="img/botones/lipoboton.jpg" alt="">						
 					</li>
 					<li class="estetica-seccion-item">
-						<h1>Peeling químicos</h1>
-						<img src="http://www.institutomedicomallen.com/wp-content/uploads/2018/02/otoplastia-1140x570.jpg" alt="">
+						<h1>Peeling químico</h1>
+						<img src="img/botones/peelingboton2.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Contorno Facial</h1>
-						<img src="https://www.webconsultas.com/sites/default/files/styles/encabezado_articulo/public/temas/bolas-de-bichat.jpg" alt="">	
+						<img src="img/botones/liftingfacialboton.jpg" alt="">	
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Plasma Rico en Plaquetas
 						<br>
 						PRP</h1>
-						<img src="https://www.drfernandezblanco.com/blog/wp-content/uploads/lifting-facial-1024x683.jpg" alt="">
+						<img src="img/botones/prpboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Nutrientes con microagujas</h1>
-						<img src="https://i2.wp.com/www.clinicasanza.com/wp-content/uploads/2017/05/pectorales_ginecomastia_clinica-sanza.jpg?resize=999%2C678&ssl=1" alt="">
+						<img src="img/botones/lifting-facialboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Cicatrices</h1>
-						<img src="http://dr-timoshenko.ru/uploads/mentoplastika/mentopl.jpg" alt="">
+						<img src="img/botones/bichetomiaboton.jpg" alt="">
 					</li>
 				</ul>
 		  </div>

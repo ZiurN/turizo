@@ -89,7 +89,7 @@ function init(){
 				botonMenu.style.left = desplazamientoX+"px";
 			}else{
 				botonMenu.classList.toggle('menu-logo-abajo-extendido');
-				botonMenu.classList.remove('borde-animado');
+				//botonMenu.classList.remove('borde-animado');
 		   }
 		}
 	}
@@ -101,15 +101,19 @@ function init(){
 	function mostrarMenu(){
 		var menu = document.getElementById('menuextendido');	
 		menu.classList.toggle('menu-extendido');
-		
 		if(menuCentrado){
 			logoTexto.classList.toggle('logo-texto-opaco');
-			botonMenu.classList.toggle('borde-animado');
+			botonMenu.classList.toggle('borde-animado');			
 		}
 		if(!menuCentrado){
 			menuContenedor.classList.toggle('contenedor-menu-circular-abajo-extendido');
 			botonMenu.classList.toggle('menu-logo-abajo-extendido');
-			botonMenu.classList.remove('borde-animado');
+			if(tipoPantalla <= 1){
+				botonMenu.classList.toggle('borde-animado');
+			}else{
+				botonMenu.classList.remove('borde-animado');
+			}
+			
 		}
 		menuExtendido = !menuExtendido;
 			if(menuExtendido){
@@ -152,6 +156,7 @@ function init(){
 	
 	function bajarMenu(){
 		var menu = document.getElementById('menuextendido');
+		botonMenu.removeEventListener('click', reproducirSonidoListener, true);
 		if(menuCentrado){
 			if(tipoPantalla === 0){
 				reproducirSonido(audio2);
@@ -159,19 +164,19 @@ function init(){
 				menu.classList.toggle('menu-extendido');
 				logoTexto.style.display = "none";
 				botonMenu.classList.toggle('menu-logo-abajo');
+				botonMenu.classList.toggle('borde-animado');			
 				menuExtendido = !menuExtendido;
 				
 			}else if(tipoPantalla >= 1){
+				botonMenu.classList.remove('borde-animado');
 				reproducirSonido(audio2);
 				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.remove('menu-extendido-off');
 				botonMenu.classList.remove('menu-logo-abajo');
 				botonMenu.classList.remove('borde-animado');
 				botonMenu.removeEventListener('click', mostrarMenuListener, true);
-				botonMenu.removeEventListener('click', reproducirSonidoListener, true);
 				logoTexto.classList.remove('logo-texto-opaco');
 				logoTexto.classList.add('logo-texto-lateral');
-				
 			}
 		}
 		menuCentrado = false;
