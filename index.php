@@ -19,6 +19,7 @@
 <body>
 <section class="main" id="main">
   	<nav class="contenedor-menu-circular" id="contenedor-menu-circular">
+		<p id="texto-menu-pulsar" class="texto-menu-pulsar">Pulsa en el logo</p>
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menulogo.svg'?>
     	<div id="menu-circular" class="menu-circular">
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menu2.svg'?>	
@@ -43,97 +44,100 @@
 		</div>
     </article>
     <article id="cirugia-seccion" class="off">
-     	<div id="cirugia-seccion-titulo" class="titulo-seccion">
-        	<h1>Cirugías</h1>
-        	<svg class="linea-titulo">
-          		<line  x1="0%" y1="0" x2="100%" y2="0"/>
-        	</svg>
-		</div>
-		<div class="seccion-contenido">
-		  	<div id="cirugia-seccion-listado" class="listado-cirugia">
-				<ul>
-					<li class="cirugia-seccion-item">
-						<h1>Liposucción
-							<br>Lipo4D
-						</h1>
-						<img src="img/botones/lipoboton.jpg" alt="">						
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Rinoplastia</h1>
-						<img src="img/botones/rinoboton.jpg" alt="">	
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Otoplastia</h1>
-						<img src="img/botones/otoplastiaboton.jpg" alt="">	
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Blefaroplastia</h1>	
-						<img src="img/botones/parpadosboton.jpg" alt="">	
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Levantamiento de Cejas</h1>	
-						<img src="img/botones/cejasboton.jpg" alt="">	
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Bichectomía</h1>
-						<img src="img/botones/bichetomiaboton.jpg" alt="">	
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Mentoplastia</h1>
-						<img src="img/botones/mentoplastiaboton.jpg" alt="">
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Lifting Facial</h1>
-						<img src="img/botones/liftingfacialboton.jpg" alt="">
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>NanoFat Facial</h1>
-						<img src="img/botones/nanofacialboton.jpg" alt="">
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Levantamiento de Mamas</h1>
-						<img src="img/botones/levantamientomamasboton.jpg" alt="">
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Aumento y Reducción de Mamas</h1>
-						<img src="img/botones/reduccionmamasboton.jpg" alt="">			
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Ginecomastia</h1>
-						<img src="img/botones/ginecomastiaboton.jpg" alt="">
-					</li>
-					<li class="cirugia-seccion-item">
-						<h1>Abdominoplastia</h1>
-						<img src="img/botones/abdominoplastiaboton.jpg" alt="">			
-					</li>					
-					<li class="cirugia-seccion-item">
-						<h1>Aumento de Gluteos</h1>		
-						<img src="img/botones/gluteosboton.jpg" alt="">
-					</li>				
-					<li class="cirugia-seccion-item">
-						<h1>PostBariátricos</h1>
-						<img src="img/botones/bariatricoboton.jpg" alt="">
-					</li>
-				</ul>
+		<div class="contenedor-limite">
+			<div id="cirugia-seccion-titulo" class="titulo-seccion">
+				<h1>Cirugías</h1>
+				<svg class="linea-titulo">
+					<line  x1="0%" y1="0" x2="100%" y2="0"/>
+				</svg>
 			</div>
-			<div id="cirugia-seccion-php" class="contenido-seleccion">
-				<div id="cirugia-seccion-boton" class="boton-volver">
-					 <?php include $_SERVER['DOCUMENT_ROOT'].'/img/boton.svg';?>
+			<div class="seccion-contenido">
+				<div id="cirugia-seccion-listado" class="listado-cirugia">
+					<ul>
+						<li class="cirugia-seccion-item">
+							<h1>Liposucción
+								<br>Lipo4D
+							</h1>
+							<img src="img/botones/lipoboton.jpg" alt="">						
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Rinoplastia</h1>
+							<img src="img/botones/rinoboton.jpg" alt="">	
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Otoplastia</h1>
+							<img src="img/botones/otoplastiaboton.jpg" alt="">	
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Blefaroplastia</h1>	
+							<img src="img/botones/parpadosboton.jpg" alt="">	
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Levantamiento de Cejas</h1>	
+							<img src="img/botones/cejasboton.jpg" alt="">	
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Bichectomía</h1>
+							<img src="img/botones/bichetomiaboton.jpg" alt="">	
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Mentoplastia</h1>
+							<img src="img/botones/mentoplastiaboton.jpg" alt="">
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Lifting Facial</h1>
+							<img src="img/botones/liftingfacialboton.jpg" alt="">
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>NanoFat Facial</h1>
+							<img src="img/botones/nanofacialboton.jpg" alt="">
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Levantamiento de Mamas</h1>
+							<img src="img/botones/levantamientomamasboton.jpg" alt="">
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Aumento y Reducción de Mamas</h1>
+							<img src="img/botones/reduccionmamasboton.jpg" alt="">			
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Ginecomastia</h1>
+							<img src="img/botones/ginecomastiaboton.jpg" alt="">
+						</li>
+						<li class="cirugia-seccion-item">
+							<h1>Abdominoplastia</h1>
+							<img src="img/botones/abdominoplastiaboton.jpg" alt="">			
+						</li>					
+						<li class="cirugia-seccion-item">
+							<h1>Aumento de Gluteos</h1>		
+							<img src="img/botones/gluteosboton.jpg" alt="">
+						</li>				
+						<li class="cirugia-seccion-item">
+							<h1>PostBariátricos</h1>
+							<img src="img/botones/bariatricoboton.jpg" alt="">
+						</li>
+					</ul>
 				</div>
-				<div class="seccion-rellenar" id="cirugia-seccion-rellenar-php">
+				<div id="cirugia-seccion-php" class="contenido-seleccion">
+					<div id="cirugia-seccion-boton" class="boton-volver">
+						 <?php include $_SERVER['DOCUMENT_ROOT'].'/img/boton.svg';?>
+					</div>
+					<div class="seccion-rellenar" id="cirugia-seccion-rellenar-php">
 
+					</div>
 				</div>
-		 	</div>
+			</div>
 		</div>
     </article>
     <article id="estetica-seccion" class="off">
-    	<div id="estetica-seccion-titulo" class="titulo-seccion">
+		<div class="contenedor-limite">
+			<div id="estetica-seccion-titulo" class="titulo-seccion">
         	<h1>Estética</h1>
         	<svg class="linea-titulo">
           		<line  x1="10%" y1="0" x2="100%" y2="0"/>
         	</svg>
 		</div>
-		 <div class="seccion-contenido">
+		 	<div class="seccion-contenido">
       		<div id="estetica-seccion-listado" class="listado-cirugia">
 				<ul>
 					<li class="estetica-seccion-item">
@@ -184,15 +188,17 @@
 			</div>
 			</div>
 		</div>
+		</div>
     </article>
     <article id="logo-seccion" class="off">
-		<div class="titulo-seccion">
+		<div class="contenedor-limite">
+			<div class="titulo-seccion">
 			<h1>Identidad</h1>
 			<svg class="linea-titulo">
 			  <line  x1="10%" y1="0" x2="100%" y2="0"/>
 			</svg>
 		</div>
-		<div class="seccion-contenido">
+			<div class="seccion-contenido">
 			  <div class="logo-seccion-logo">
 					<img src="/img/logoSimboloColor.svg" alt="">
 			  </div>
@@ -204,15 +210,17 @@
 				  </div>
 			  </div>
 		</div>
+		</div>
     </article>
 	<article id="contacto-seccion" class="off">
-		<div class="titulo-seccion">
+		<div class="contenedor-limite">
+			<div class="titulo-seccion">
 			<h1>Contacto</h1>
 			<svg class="linea-titulo">
 			<line  x1="10%" y1="0" x2="100%" y2="0"/>
 			</svg>
 		</div>
-		<div class="seccion-contenido">
+			<div class="seccion-contenido">
 			<div class="contacto-contenido">
 				<div class="contacto-contenido-redes">
 					<div class="redes-texto">@drturizo</div>
@@ -245,20 +253,24 @@
 				<form action="" class="enviar-datos">
 					<input class="dato-form" type="text" name="nombre" required><label class="dato-label" for="name">Tu Nombre</label>
 					<input class="dato-form" type="email" name="email" required><label class="dato-label" for="email">Tu Correo</label>
-					<input class="dato-form" type="text" name="comentario" required><label class="dato-label" for="comentario">Tu Comentario</label>
+					<textarea class="dato-form" type="text" name="comentario" required></textarea><label class="dato-label" for="comentario">Tu Comentario</label>
+					<p>Si tienes una sugerencia para el sitio web, la navegabilidad, cómo te sientes en el sitio, si te resulta confuso, o algo de este estilo, no dudes en comunicarmelo aquí</p>
+					<textarea class="dato-form" type="text" name="sugerencia" required></textarea><label class="dato-label" for="sugerencia">Tu Sugerencia</label>
 					<input class="btn-form" type="submit" name="enviar" value="Enviar">
 				</form>
 			</div>
 		</div>
+		</div>
     </article>
     <article id="formacion-seccion" class="off">
-      <div class="titulo-seccion">
+		<div class="contenedor-limite">
+		  	<div class="titulo-seccion">
         <h1 class="biografia-titulo">Formación</h1>
         <svg class="linea-titulo">
           <line  x1="10%" y1="0" x2="100%" y2="0"/>
         </svg>
       </div>
-      <div class="seccion-contenido">
+      		<div class="seccion-contenido">
 		<div class="seccion-contenido-contenedor">
 		   	<div class="formacion-seccion-parte formacion-seccion-intro">
 				<div class="formacion-seccion-imagen">
@@ -310,7 +322,8 @@
 			 	</ul>
 		 	 </div>	
 		</div>
-	</div>	
+	</div>
+		</div>
     </article>
   </section>
 </section>

@@ -20,6 +20,8 @@ function init(){
 	var textosInicio = document.getElementsByClassName('palabra');
 	var audio1 = document.getElementById('audio1');
 	var audio2 = document.getElementById('audio2');
+	var textoPulse = document.getElementById('texto-menu-pulsar');
+	var contenedorGeneral = document.getElementById('content');
 	
 	var mostrarMenuListener = function(e){
 		e.stopPropagation();
@@ -107,9 +109,11 @@ function init(){
 		}
 		if(!menuCentrado){
 			menuContenedor.classList.toggle('contenedor-menu-circular-abajo-extendido');
+			textoPulse.style.display = "none";
 			botonMenu.classList.toggle('menu-logo-abajo-extendido');
 			if(tipoPantalla <= 1){
 				botonMenu.classList.toggle('borde-animado');
+				contenedorGeneral.classList.toggle('content-transparencia');
 			}else{
 				botonMenu.classList.remove('borde-animado');
 			}
@@ -117,9 +121,11 @@ function init(){
 		}
 		menuExtendido = !menuExtendido;
 			if(menuExtendido){
-				botonMenu.style.filter = "opacity(1)";
+				//botonMenu.style.filter = "opacity(1)";
+				textoPulse.style.filter = "opacity(0)";
 			}else{
-				botonMenu.style.filter = "opacity(0.5)";
+				//botonMenu.style.filter = "opacity(0.5)";
+				textoPulse.style.filter = "opacity(0.7)";
 			}
 		return menuExtendido;
 		
@@ -321,7 +327,7 @@ function init(){
 					}
 				}
 			};
-			peticion.open("post", url, false);
+			peticion.open("post", url, true);
 			peticion.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 			peticion.send("numero="+index);
 			if(tipoPantalla === 0){

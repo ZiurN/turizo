@@ -3,6 +3,11 @@
 	width: 100%
 	position: relative
 	overflow: hidden
+	//filter: opacity(1)
+	+transicionTodo(0.9s)
+.content-transparencia
+	filter: opacity(0.5)
+	+transicionTodo(0.9s)
 article
 	position: absolute
 	height: 100%
@@ -14,6 +19,11 @@ article
 	p
 		padding: 1rem 2rem 0.5rem 2rem
 		text-align: justify
+.contenedor-limite
+	height: 83%
+	overflow-y: scroll
+	position: absolute
+	overflow-x: hidden
 .seccion-contenido
 	padding: 1rem 2rem
 .activa
