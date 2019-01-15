@@ -89,7 +89,7 @@
 							<img src="img/botones/liftingfacialboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
-							<h1>NanoFat Facial</h1>
+							<h1>Injerto de Grasa</h1>
 							<img src="img/botones/nanofacialboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
@@ -199,16 +199,18 @@
 			</svg>
 		</div>
 			<div class="seccion-contenido">
-			  <div class="logo-seccion-logo">
-					<img src="/img/logoSimboloColor.svg" alt="">
-			  </div>
-			  <div class="logo-seccion-caption">
+				<div class="logo-seccion-caption">
 				  <p class="logo-seccion-cita">"El logo representa la belleza del cuerpo humano fusionada en un solo círculo."</p>
+				 <div class="logo-seccion-logo">
+					<img src="/img/logoSimboloColor.svg" alt="">
+				 </div>
 				  <div class="firma">
 					  <div class="firma-turizo">Dr. Turizo José Miguel</div>
 					  <div class="firma-cirujano">Cirujano Plástico, Estético y reconstructivo</div>
 				  </div>
 			  </div>
+			 
+			  
 		</div>
 		</div>
     </article>

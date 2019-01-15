@@ -80,6 +80,7 @@ function init(){
 		}else if(anchoPantalla >= 1200){
 			tamanoPantalla = 2;
 		}
+		console.log(tamanoPantalla);
 		return tamanoPantalla;
 	}
 	
@@ -87,7 +88,7 @@ function init(){
 		if(tipoPantalla >= 1){
 			if(menuCentrado === true){
 				var tamanoLogoX = menuContenedor.clientWidth;
-				var desplazamientoX = (tamanoLogoX - 150)/2;
+				var desplazamientoX = (tamanoLogoX - 140)/2;
 				botonMenu.style.left = desplazamientoX+"px";
 			}else{
 				botonMenu.classList.toggle('menu-logo-abajo-extendido');
@@ -111,11 +112,12 @@ function init(){
 			menuContenedor.classList.toggle('contenedor-menu-circular-abajo-extendido');
 			textoPulse.style.display = "none";
 			botonMenu.classList.toggle('menu-logo-abajo-extendido');
-			if(tipoPantalla <= 1){
+			if(tipoPantalla < 1){
 				botonMenu.classList.toggle('borde-animado');
 				contenedorGeneral.classList.toggle('content-transparencia');
 			}else{
 				botonMenu.classList.remove('borde-animado');
+				contenedorGeneral.classList.remove('content-transparencia');
 			}
 			
 		}
@@ -164,25 +166,27 @@ function init(){
 		var menu = document.getElementById('menuextendido');
 		botonMenu.removeEventListener('click', reproducirSonidoListener, true);
 		if(menuCentrado){
+			reproducirSonido(audio2);
+			menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 			if(tipoPantalla === 0){
-				reproducirSonido(audio2);
-				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.toggle('menu-extendido');
 				logoTexto.style.display = "none";
 				botonMenu.classList.toggle('menu-logo-abajo');
 				botonMenu.classList.toggle('borde-animado');			
 				menuExtendido = !menuExtendido;
-				
 			}else if(tipoPantalla >= 1){
-				botonMenu.classList.remove('borde-animado');
-				reproducirSonido(audio2);
-				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.remove('menu-extendido-off');
+				console.log('1ro paso');
 				botonMenu.classList.remove('menu-logo-abajo');
+				console.log('2do paso');
 				botonMenu.classList.remove('borde-animado');
+				console.log('3ro paso');
 				botonMenu.removeEventListener('click', mostrarMenuListener, true);
+				console.log('4to paso');
 				logoTexto.classList.remove('logo-texto-opaco');
+				console.log('5to paso');
 				logoTexto.classList.add('logo-texto-lateral');
+				console.log('se supone que estamos en el if de pantalla igual o mayor a 1024');
 			}
 		}
 		menuCentrado = false;
@@ -205,23 +209,23 @@ function init(){
 	var esteticaItem = document.getElementById('estetica');
 	esteticaItem.addEventListener('click',function(){
 		irSeccion('estetica-seccion');
-	});
+	}, true);
 	var cirugiaItem = document.getElementById('cirugia');
 	cirugiaItem.addEventListener('click',function(){
 		irSeccion('cirugia-seccion');
-	});
+	}, true);
 	var formacionItem = document.getElementById('formacion');
 	formacionItem.addEventListener('click',function(){
 		irSeccion('formacion-seccion');
-	});
+	}, true);
 	var logoItem = document.getElementById('logo');
 	logoItem.addEventListener('click',function(){
 		irSeccion('logo-seccion');
-	});
+	}, true);
 	var contactoItem = document.getElementById('contacto');
 	contactoItem.addEventListener('click',function(){
 		irSeccion('contacto-seccion');
-	});
+	}, true);
 	
 	var currentIndex = 0;
 	var currentId = "inicio-seccion";

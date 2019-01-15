@@ -369,7 +369,8 @@ article {
 
 .contenedor-limite {
   height: 83%;
-  overflow-y: scroll;
+  width: 100%;
+  overflow-y: auto;
   position: absolute;
   overflow-x: hidden; }
 
@@ -519,6 +520,9 @@ article {
   .cirugia-seccion-contenedor-seleccionado p span {
     color: #0096A9;
     text-decoration: underline #0096A9; }
+
+.firma {
+  padding-top: 1rem; }
 
 .instagram-header {
   padding: 2rem;
@@ -726,6 +730,11 @@ article {
     cursor: pointer; }
 
 @media only screen and (min-width: 1px) and (orientation: landscape) {
+  .texto-menu-pulsar {
+    width: 51%;
+    left: 24%;
+    top: 19%; }
+
   .contenedor-menu-circular {
     height: 70vh;
     top: 8%;
@@ -812,8 +821,8 @@ article {
   .contenedor-menu-circular-abajo {
     width: 100px;
     height: 100px;
-    left: 80%;
-    top: 80%;
+    left: 45%;
+    top: 85%;
     transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
     -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
     -moz-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
@@ -821,9 +830,9 @@ article {
     -o-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s; }
 
   .contenedor-menu-circular-abajo-extendido {
-    width: 38%;
+    width: 40%;
     height: 29%;
-    left: 56%;
+    left: 30%;
     top: 65%;
     transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
     -webkit-transition: all cubic-bezier(0.96, 0.01, 0.13, 0.97) 0.9s;
@@ -980,15 +989,15 @@ article {
     top: -10%; }
 
   .menulogo {
-    width: 150px;
-    height: 150px;
-    top: 27%;
+    width: 140px;
+    height: 140px;
+    top: 26%;
     left: 34%; }
 
   .menu-logo-abajo-extendido {
     width: 27%;
-    height: 12%;
-    left: 35%;
+    height: 11%;
+    left: 37% !important;
     top: 35%; }
 
   .activa {
@@ -996,6 +1005,10 @@ article {
 
   .cirugia-item a img {
     transform: translate(0%, -23%); }
+
+  .contenedor-limite {
+    height: 100%;
+    overflow: auto; }
 
   .contenido-seleccion {
     display: flex;
@@ -1039,7 +1052,8 @@ article {
     left: 37%; }
 
   .menu-logo-abajo-extendido {
-    left: 38% !important; }
+    left: 38% !important;
+    width: 25%; }
 
   .logo-texto {
     width: 60%;
