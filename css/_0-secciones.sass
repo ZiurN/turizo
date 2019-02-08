@@ -3,6 +3,11 @@
 	width: 100%
 	position: relative
 	overflow: hidden
+	//filter: opacity(1)
+	+transicionTodo(0.9s)
+.content-transparencia
+	filter: opacity(0.5)
+	+transicionTodo(0.9s)
 article
 	position: absolute
 	height: 100%
@@ -14,6 +19,12 @@ article
 	p
 		padding: 1rem 2rem 0.5rem 2rem
 		text-align: justify
+.contenedor-limite
+	height: 83%
+	width: 100%
+	overflow-y: auto
+	position: absolute
+	overflow-x: hidden
 .seccion-contenido
 	padding: 1rem 2rem
 .activa
@@ -37,7 +48,7 @@ article
 		stroke: $azulPrincipal
 		stroke-width: 4px
 #inicio-seccion
-	background-image: url(/img/inicio.JPG)
+	background-image: url(/img/inicio.jpg)
 	background-position-x: 75%
 #cirugia-seccion
 	background-image: url(/img/servicios2.jpg)
@@ -50,7 +61,7 @@ article
 	background-image: url(/img/estetica2.jpg)
 #contacto-seccion
 	background-image: url(/img/contacto3.jpg)
-	background-position-x: 11%
+	background-position-x: 42%
 .listado-cirugia
 	position: absolute
 	width: 84%
@@ -118,3 +129,5 @@ article
 		span
 			color: $azulPrincipal
 			text-decoration: underline $azulPrincipal
+.firma
+	padding-top: 1rem

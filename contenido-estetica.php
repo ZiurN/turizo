@@ -74,7 +74,7 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>CONTORNO FACIAL </h1>
-				<p>El tratamiento del contorno facial. Se busca armonizar el rostro, dandole los efectos adecuados de luz y sombre</p>
+				<p>Rellenos faciales con Ácido Hialurónico.</p>
 				
 				
 				<div id='visor-album' class='visor-album'>
@@ -101,9 +101,6 @@ if(isset($_POST['numero'])){
 				<h2>¿Qué sucede con el plasma rico en plaquetas (PRP) en el cabello?</h2>
 				<p>Es una técnica que permite aislar y utilizar los factores de crecimiento presentes en la sangre del propio paciente para potenciar, acelerar y estimular la regeneración de los tejidos.</p>
 				<p>Se puede complementar con mesoterapia acompañada con nutrientes, factor de crecimiento, y estimulantes del crecimiento capilar.</p>
-				<div id='visor-album' class='visor-album'>
-					<img class="visor-imagen-sola" src="/img/cirugia-estetica/PRP.jpg" alt="">
-				</div>
 			</div>
 		<?php
 		break;

@@ -20,6 +20,8 @@ function init(){
 	var textosInicio = document.getElementsByClassName('palabra');
 	var audio1 = document.getElementById('audio1');
 	var audio2 = document.getElementById('audio2');
+	var textoPulse = document.getElementById('texto-menu-pulsar');
+	var contenedorGeneral = document.getElementById('content');
 	
 	var mostrarMenuListener = function(e){
 		e.stopPropagation();
@@ -78,6 +80,7 @@ function init(){
 		}else if(anchoPantalla >= 1200){
 			tamanoPantalla = 2;
 		}
+		console.log(tamanoPantalla);
 		return tamanoPantalla;
 	}
 	
@@ -85,11 +88,11 @@ function init(){
 		if(tipoPantalla >= 1){
 			if(menuCentrado === true){
 				var tamanoLogoX = menuContenedor.clientWidth;
-				var desplazamientoX = (tamanoLogoX - 150)/2;
+				var desplazamientoX = (tamanoLogoX - 140)/2;
 				botonMenu.style.left = desplazamientoX+"px";
 			}else{
 				botonMenu.classList.toggle('menu-logo-abajo-extendido');
-				botonMenu.classList.remove('borde-animado');
+				//botonMenu.classList.remove('borde-animado');
 		   }
 		}
 	}
@@ -101,20 +104,30 @@ function init(){
 	function mostrarMenu(){
 		var menu = document.getElementById('menuextendido');	
 		menu.classList.toggle('menu-extendido');
-		botonMenu.classList.toggle('borde-animado');
 		if(menuCentrado){
 			logoTexto.classList.toggle('logo-texto-opaco');
-			
+			botonMenu.classList.toggle('borde-animado');			
 		}
 		if(!menuCentrado){
 			menuContenedor.classList.toggle('contenedor-menu-circular-abajo-extendido');
+			textoPulse.style.display = "none";
 			botonMenu.classList.toggle('menu-logo-abajo-extendido');
+			if(tipoPantalla < 1){
+				botonMenu.classList.toggle('borde-animado');
+				contenedorGeneral.classList.toggle('content-transparencia');
+			}else{
+				botonMenu.classList.remove('borde-animado');
+				contenedorGeneral.classList.remove('content-transparencia');
+			}
+			
 		}
 		menuExtendido = !menuExtendido;
 			if(menuExtendido){
-				botonMenu.style.filter = "opacity(1)";
+				//botonMenu.style.filter = "opacity(1)";
+				textoPulse.style.filter = "opacity(0)";
 			}else{
-				botonMenu.style.filter = "opacity(0.5)";
+				//botonMenu.style.filter = "opacity(0.5)";
+				textoPulse.style.filter = "opacity(0.7)";
 			}
 		return menuExtendido;
 		
@@ -151,27 +164,29 @@ function init(){
 	
 	function bajarMenu(){
 		var menu = document.getElementById('menuextendido');
-		botonMenu.classList.toggle('borde-animado');
 		botonMenu.removeEventListener('click', reproducirSonidoListener, true);
 		if(menuCentrado){
+			reproducirSonido(audio2);
+			menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 			if(tipoPantalla === 0){
-				reproducirSonido(audio2);
-				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.toggle('menu-extendido');
 				logoTexto.style.display = "none";
 				botonMenu.classList.toggle('menu-logo-abajo');
+				botonMenu.classList.toggle('borde-animado');			
 				menuExtendido = !menuExtendido;
-				
 			}else if(tipoPantalla >= 1){
-				reproducirSonido(audio2);
-				menuContenedor.classList.toggle('contenedor-menu-circular-abajo');
 				menu.classList.remove('menu-extendido-off');
+				console.log('1ro paso');
 				botonMenu.classList.remove('menu-logo-abajo');
+				console.log('2do paso');
 				botonMenu.classList.remove('borde-animado');
+				console.log('3ro paso');
 				botonMenu.removeEventListener('click', mostrarMenuListener, true);
+				console.log('4to paso');
 				logoTexto.classList.remove('logo-texto-opaco');
+				console.log('5to paso');
 				logoTexto.classList.add('logo-texto-lateral');
-				
+				console.log('se supone que estamos en el if de pantalla igual o mayor a 1024');
 			}
 		}
 		menuCentrado = false;
@@ -194,23 +209,23 @@ function init(){
 	var esteticaItem = document.getElementById('estetica');
 	esteticaItem.addEventListener('click',function(){
 		irSeccion('estetica-seccion');
-	});
+	}, true);
 	var cirugiaItem = document.getElementById('cirugia');
 	cirugiaItem.addEventListener('click',function(){
 		irSeccion('cirugia-seccion');
-	});
+	}, true);
 	var formacionItem = document.getElementById('formacion');
 	formacionItem.addEventListener('click',function(){
 		irSeccion('formacion-seccion');
-	});
+	}, true);
 	var logoItem = document.getElementById('logo');
 	logoItem.addEventListener('click',function(){
 		irSeccion('logo-seccion');
-	});
+	}, true);
 	var contactoItem = document.getElementById('contacto');
 	contactoItem.addEventListener('click',function(){
 		irSeccion('contacto-seccion');
-	});
+	}, true);
 	
 	var currentIndex = 0;
 	var currentId = "inicio-seccion";
@@ -316,7 +331,7 @@ function init(){
 					}
 				}
 			};
-			peticion.open("post", url, false);
+			peticion.open("post", url, true);
 			peticion.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 			peticion.send("numero="+index);
 			if(tipoPantalla === 0){
