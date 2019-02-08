@@ -5,13 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Last-Modified" content="0">
-<link rel="icon" type="image/png" href="/img/iconos/logoicon.ico">
+<link rel="icon" type="image/png" href="img/iconos/logoicon.png">
+<title>Dr. José Miguel Turizo Torres</title>
 <link href="/css/estilos.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Julius+Sans+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Quintessential" rel="stylesheet">
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-	<link href="https://file.myfontastic.com/kvDmzqcR5DN4QxGNS79Lr3/icons.css" rel="stylesheet">
+<link href="https://file.myfontastic.com/kvDmzqcR5DN4QxGNS79Lr3/icons.css" rel="stylesheet">
 <link href="https://file.myfontastic.com/kvDmzqcR5DN4QxGNS79Lr3/icons.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Allura|Great+Vibes|Italianno|Parisienne" rel="stylesheet"> 
@@ -245,6 +246,13 @@
 				<div class="redes-texto whatsapp">
 					<a href="https://api.whatsapp.com/send?phone=541166453915"><i class="fab fa-whatsapp"></i>&nbsp;whatsapp<br><br>wa.me/1166453915</a>
 				</div>
+				<div id="box" align="center">
+					<a href="https://www.esteticas.com.ar/centros/cirujano-plastico-jose-miguel-turizo" target="_blank" >
+						<img src="https://www.esteticas.com.ar/stamp.xpng?com=346134&v=10" alt="Cirujano Plástico José Miguel Turizo" border="0" />
+						<span style="display:table;width:auto;text-align:center;border-radius:4px;border:1px solid #4D92DF;padding:5px 10px;color:#4D92DF;margin-top:10px;">Ver perfil</span>
+					</a>
+				</div>
+				
 				<br>
 				<div class="instagram-titulo">
 					<i class="far fa-compass"></i>&nbsp;¿Cómo llegar?
