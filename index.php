@@ -13,7 +13,6 @@
 <link href="https://fonts.googleapis.com/css?family=Quintessential" rel="stylesheet">
 <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 <link href="https://file.myfontastic.com/kvDmzqcR5DN4QxGNS79Lr3/icons.css" rel="stylesheet">
-<link href="https://file.myfontastic.com/kvDmzqcR5DN4QxGNS79Lr3/icons.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Allura|Great+Vibes|Italianno|Parisienne" rel="stylesheet"> 
 </head>
@@ -260,13 +259,13 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13137.987452862388!2d-58.4152626!3d-34.5915954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4733f572db91af1b!2sCirujano+Pl%C3%A1stico+Jos%C3%A9+Miguel+Turizo!5e0!3m2!1ses!2sar!4v1540431563954" frameborder="0" style="border:0" allowfullscreen></iframe>
 				<div class="instagram-titulo"><i class="far fa-envelope"></i> Correo electrónico</div>
 				<p>Para contactar escribe debajo tus datos y nos pondremos en contacto a la brevedad.</p>
+				<p>Si tienes una sugerencia para el sitio web, la navegabilidad, cómo te sientes en el sitio, si te resulta confuso, o algo de este estilo, no dudes en comunicarmelo aquí</p>
 				<form action="" class="enviar-datos">
-					<input class="dato-form" type="text" name="nombre" required><label class="dato-label" for="name">Tu Nombre</label>
-					<input class="dato-form" type="email" name="email" required><label class="dato-label" for="email">Tu Correo</label>
-					<textarea class="dato-form" type="text" name="comentario" required></textarea><label class="dato-label" for="comentario">Tu Comentario</label>
-					<p>Si tienes una sugerencia para el sitio web, la navegabilidad, cómo te sientes en el sitio, si te resulta confuso, o algo de este estilo, no dudes en comunicarmelo aquí</p>
-					<textarea class="dato-form" type="text" name="sugerencia" required></textarea><label class="dato-label" for="sugerencia">Tu Sugerencia</label>
-					<input class="btn-form" type="submit" name="enviar" value="Enviar">
+					<input id="nombre-remitente" class="dato-form" type="text" name="nombre" required><label class="dato-label" for="name">Tu Nombre</label>
+					<input id="correo-remitente" class="dato-form" type="email" name="email" required><label class="dato-label" for="email">Tu Correo</label>
+					<textarea id="comentario-enviado" class="dato-form" type="text" name="comentario" required></textarea><label class="dato-label" for="comentario">Tu Comentario</label>
+					<textarea id="sugerencia-enviada" class="dato-form" type="text" name="sugerencia" required></textarea><label class="dato-label" for="sugerencia">Tu Sugerencia</label>
+					<input id="btn-formulario" class="btn-form" type="button" name="enviar" value="Enviar">
 				</form>
 			</div>
 		</div>

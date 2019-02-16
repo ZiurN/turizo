@@ -22,6 +22,7 @@ function init(){
 	var audio2 = document.getElementById('audio2');
 	var textoPulse = document.getElementById('texto-menu-pulsar');
 	var contenedorGeneral = document.getElementById('content');
+	var bntEnviarComentario = document.getElementById('btn-formulario');
 	
 	var mostrarMenuListener = function(e){
 		e.stopPropagation();
@@ -70,6 +71,8 @@ function init(){
 	botonMenu.addEventListener('click', mostrarMenuListener, true);
 	botonMenu.addEventListener('click', reproducirSonidoListener, true);
 	
+	bntEnviarComentario.addEventListener('click',enviarComentario);
+	
 	function definidoPantalla(){
 		var anchoPantalla = screen.width;
 		var tamanoPantalla;
@@ -80,7 +83,7 @@ function init(){
 		}else if(anchoPantalla >= 1200){
 			tamanoPantalla = 2;
 		}
-		console.log(tamanoPantalla);
+		//console.log(tamanoPantalla);
 		return tamanoPantalla;
 	}
 	
@@ -205,6 +208,46 @@ function init(){
 		}
 	}
 	
+	function enviarComentario(){
+		
+		var nombreRemitente = document.getElementById('nombre-remitente').value;
+		
+		var correoRemitente = document.getElementById('correo-remitente').value;
+		
+		var comentario = document.getElementById('comentario-enviado').value;
+		
+		var sugerencia = document.getElementById('sugerencia-enviada').value;
+		
+						
+		if(nombreRemitente === '' || correoRemitente === ''){
+			alert('Por favor, verifica tu correo y tu nombre, no pueden estar sin diligenciar');
+		}else{
+			var peticion = new XMLHttpRequest();
+			var url = '/app/subida-comentario-db.inc.php';
+			var datosComentario = new FormData();
+						
+			datosComentario.append('Remitente', nombreRemitente);
+			console.log(nombreRemitente);
+			datosComentario.append('Correo', correoRemitente);
+			console.log(correoRemitente);
+			datosComentario.append('Comentario', comentario);
+			console.log(comentario);
+			datosComentario.append('Sugerencia', sugerencia);
+			console.log(sugerencia);
+			
+			peticion.onreadystatechange = function(){
+				if(peticion.readyState === 4){
+					if(peticion.status === 200){
+					alert(peticion.responseText);
+					}
+				}
+			};
+			peticion.open("post", url, true);
+			//peticion.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+			peticion.send(datosComentario);
+		}		
+	}
+	
 	 //Para las secciones del sitio
 	var esteticaItem = document.getElementById('estetica');
 	esteticaItem.addEventListener('click',function(){
@@ -320,14 +363,14 @@ function init(){
 		enBlanco.classList.toggle('contenido-seccion-mostrado');
 				
 		if(id === 'cirugia-seccion'){
-				var peticion = new XMLHttpRequest();
-				var url = '/contenido-cirugias.php';
-				var contenedor = document.getElementById('cirugia-seccion-rellenar-php');
-				peticion.onreadystatechange = function(){
-					if(peticion.readyState === 4){
-						if(peticion.status === 200){
-						contenedor.innerHTML = peticion.responseText;
-						sliders();
+			var peticion = new XMLHttpRequest();
+			var url = '/contenido-cirugias.php';
+			var contenedor = document.getElementById('cirugia-seccion-rellenar-php');
+			peticion.onreadystatechange = function(){
+				if(peticion.readyState === 4){
+					if(peticion.status === 200){
+					contenedor.innerHTML = peticion.responseText;
+					sliders();
 					}
 				}
 			};
@@ -337,8 +380,8 @@ function init(){
 			if(tipoPantalla === 0){
 				$('#cirugia-seccion-titulo').ScrollTo();
 			}else{
-				
-			}
+
+			}	
 		}
 		if(id === 'estetica-seccion'){
 				var peticion2 = new XMLHttpRequest();

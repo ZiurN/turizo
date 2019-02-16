@@ -1,0 +1,7 @@
+[16-Feb-2019 01:55:23 UTC] PHP Parse error:  syntax error, unexpected 'font' (T_STRING) in /home8/drturizo/public_html/app/envio-correos.inc.php on line 163
+[16-Feb-2019 01:55:30 UTC] PHP Parse error:  syntax error, unexpected 'font' (T_STRING) in /home8/drturizo/public_html/app/envio-correos.inc.php on line 163
+[16-Feb-2019 01:56:03 UTC] PHP Parse error:  syntax error, unexpected 'font' (T_STRING) in /home8/drturizo/public_html/app/envio-correos.inc.php on line 163
+[16-Feb-2019 01:56:29 UTC] PHP Parse error:  syntax error, unexpected 'font' (T_STRING) in /home8/drturizo/public_html/app/envio-correos.inc.php on line 163
+[16-Feb-2019 01:57:59 UTC] PHP Parse error:  syntax error, unexpected 'font' (T_STRING) in /home8/drturizo/public_html/app/envio-correos.inc.php on line 163
+[16-Feb-2019 22:24:24 UTC] PHP Warning:  include_once(/plantillas/plantilla-correo.html): failed to open stream: No such file or directory in /home8/drturizo/public_html/app/envio-correos.inc.php on line 9
+[16-Feb-2019 22:24:24 UTC] PHP Warning:  include_once(): Failed opening '/plantillas/plantilla-correo.html' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home8/drturizo/public_html/app/envio-correos.inc.php on line 9
