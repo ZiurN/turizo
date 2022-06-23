@@ -15,7 +15,7 @@
 <link href="https://file.myfontastic.com/kvDmzqcR5DN4QxGNS79Lr3/icons.css" rel="stylesheet">
 <link href="https://file.myfontastic.com/kvDmzqcR5DN4QxGNS79Lr3/icons.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Allura|Great+Vibes|Italianno|Parisienne" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Allura|Great+Vibes|Italianno|Parisienne" rel="stylesheet">
 </head>
 <body>
 <section class="main" id="main">
@@ -23,14 +23,13 @@
 		<p id="texto-menu-pulsar" class="texto-menu-pulsar">Pulsa en el logo</p>
 		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menulogo.svg'?>
     	<div id="menu-circular" class="menu-circular">
-		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menu2.svg'?>	
+		<?php include $_SERVER['DOCUMENT_ROOT'].'/img/menu2.svg'?>
    		</div>
-    	<img class="logo-texto" id="logo-texto" src="/img/texto.svg" alt=""> 
+    	<img class="logo-texto" id="logo-texto" src="/img/texto.svg" alt="">
 		<audio id="audio1" src="/audio/Tono3.mp3"></audio>
 		<audio id="audio2" src="/audio/Tono2.mp3"></audio>
 	</nav>
   <section id="content">
-	  
     <article id="inicio-seccion" class="activa">
       	<div id="imagen-fondo" class="imagen-fondo">
 			<ul class="palabras">
@@ -59,27 +58,27 @@
 							<h1>Liposucción
 								<br>Lipo4D
 							</h1>
-							<img src="img/botones/lipoboton.jpg" alt="">						
+							<img src="img/botones/lipoboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
 							<h1>Rinoplastia</h1>
-							<img src="img/botones/rinoboton.jpg" alt="">	
+							<img src="img/botones/rinoboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
 							<h1>Otoplastia</h1>
-							<img src="img/botones/otoplastiaboton.jpg" alt="">	
+							<img src="img/botones/otoplastiaboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
-							<h1>Blefaroplastia</h1>	
-							<img src="img/botones/parpadosboton.jpg" alt="">	
+							<h1>Blefaroplastia</h1>
+							<img src="img/botones/parpadosboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
-							<h1>Levantamiento de Cejas</h1>	
-							<img src="img/botones/cejasboton.jpg" alt="">	
+							<h1>Levantamiento de Cejas</h1>
+							<img src="img/botones/cejasboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
 							<h1>Bichectomía</h1>
-							<img src="img/botones/bichetomiaboton.jpg" alt="">	
+							<img src="img/botones/bichetomiaboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
 							<h1>Mentoplastia</h1>
@@ -99,7 +98,7 @@
 						</li>
 						<li class="cirugia-seccion-item">
 							<h1>Aumento y Reducción de Mamas</h1>
-							<img src="img/botones/reduccionmamasboton.jpg" alt="">			
+							<img src="img/botones/reduccionmamasboton.jpg" alt="">
 						</li>
 						<li class="cirugia-seccion-item">
 							<h1>Ginecomastia</h1>
@@ -107,12 +106,12 @@
 						</li>
 						<li class="cirugia-seccion-item">
 							<h1>Abdominoplastia</h1>
-							<img src="img/botones/abdominoplastiaboton.jpg" alt="">			
-						</li>					
+							<img src="img/botones/abdominoplastiaboton.jpg" alt="">
+						</li>
 						<li class="cirugia-seccion-item">
-							<h1>Aumento de Gluteos</h1>		
+							<h1>Aumento de Gluteos</h1>
 							<img src="img/botones/gluteosboton.jpg" alt="">
-						</li>				
+						</li>
 						<li class="cirugia-seccion-item">
 							<h1>PostBariátricos</h1>
 							<img src="img/botones/bariatricoboton.jpg" alt="">
@@ -147,7 +146,7 @@
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>BOTOX<br>Toxina Botulínica</h1>
-						<img src="img/botones/botoxboton.jpg" alt="">						
+						<img src="img/botones/botoxboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Sensualización de labios</h1>
@@ -155,7 +154,7 @@
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>NanoFat / MicroFat</h1>
-						<img src="img/botones/lipoboton.jpg" alt="">						
+						<img src="img/botones/lipoboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Peeling químico</h1>
@@ -163,7 +162,7 @@
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Contorno Facial</h1>
-						<img src="img/botones/liftingfacialboton.jpg" alt="">	
+						<img src="img/botones/liftingfacialboton.jpg" alt="">
 					</li>
 					<li class="estetica-seccion-item">
 						<h1>Plasma Rico en Plaquetas
@@ -210,8 +209,6 @@
 					  <div class="firma-cirujano">Cirujano Plástico, Estético y reconstructivo</div>
 				  </div>
 			  </div>
-			 
-			  
 		</div>
 		</div>
     </article>
@@ -252,7 +249,6 @@
 						<span style="display:table;width:auto;text-align:center;border-radius:4px;border:1px solid #4D92DF;padding:5px 10px;color:#4D92DF;margin-top:10px;">Ver perfil</span>
 					</a>
 				</div>
-				
 				<br>
 				<div class="instagram-titulo">
 					<i class="far fa-compass"></i>&nbsp;¿Cómo llegar?
@@ -285,12 +281,11 @@
 		   	<div class="formacion-seccion-parte formacion-seccion-intro">
 				<div class="formacion-seccion-imagen">
 					<img src="/img/formacion.jpg" alt="">
-				</div>	
+				</div>
 				<div class="formacion-seccion-texto">
 				<p>El Dr. José Miguel Turizo Torres, nació en Agustín Codazzi, municipio localizado al noreste de Colombia en el Departamento del Cesar.</p>
 				<p>Sus padres, Francisco José Turizo (Docente) y Yellys María Torres (Docente), son quienes inculcaron la responsabilidad y disciplina para llevar a cabo las cosas en la vida.</p>
 				</div>
-			  
 		  </div>
 			<div class="formacion-seccion-parte formacion-seccion-estudios">
 		  	<h2>Estudios</h2>
@@ -330,7 +325,7 @@
 				 	<h2>Recertificación</h2>
 				 	<li class="formacion-seccion-item">Ministerio de Salud de la Nación Argentina - Año 2017 (Argentina)</li>
 			 	</ul>
-		 	 </div>	
+		 	 </div>
 		</div>
 	</div>
 		</div>

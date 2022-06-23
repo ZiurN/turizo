@@ -1,7 +1,6 @@
 <?php
 
 if(isset($_POST['numero'])){
-	
 	switch($_POST['numero']){
 		case 0;
 		?>
@@ -15,7 +14,7 @@ if(isset($_POST['numero'])){
 		case 1;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
-				<h1>TOXINA BOTULÍNICA TIPO A BOTOX®</h1> 
+				<h1>TOXINA BOTULÍNICA TIPO A BOTOX®</h1>
 				<p>La toxina Botulínica es una neurotoxina elaborada a partir de la bacteria denominada Clostridium botulinum, su función es evitar la unión entre el nervio y el músculo por un juego de roles entre la toxina Botulínica A y las sustancias químicas que permiten que se unan el músculo y el nervio para producir la contracción.</p>
 				<p>En los tratamientos cosméticos el papel de la toxina Botulínica se traduce en relajar el músculo que hacen marcar las líneas de expresiones, ya sean en la región de la frente, alrededor de los ojos, labios o mentón principalmente.</p>
   				<h2>¿La toxina sirve para rellenar?</h2>
@@ -75,8 +74,6 @@ if(isset($_POST['numero'])){
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>CONTORNO FACIAL </h1>
 				<p>Rellenos faciales con Ácido Hialurónico.</p>
-				
-				
 				<div id='visor-album' class='visor-album'>
 					<img class="visor-imagen" src="/img/cirugia-estetica/Hialuronico.jpg" alt="">
 					<img class="visor-imagen" src="/img/cirugia-estetica/hialuronico.jpeg" alt="">
@@ -136,4 +133,3 @@ if(isset($_POST['numero'])){
 }else {
 	echo "Funciona AJAX pero no el swicht o el get";
 }
-	

@@ -1,12 +1,9 @@
 <?php
-
 if(isset($_POST['numero'])){
-	
 	switch($_POST['numero']){
 		case 0;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
-
 			<h1>LIPOSUCCIÓN</h1>
 				<p>La liposucción es una técnica de cirugía en estética que permite el remodelado de la silueta a través de la extracción de grasa o tejido adiposo de diversos sitios del cuerpo usando una cánula o jeringa conectada a una máquina succionadora. Técnica que se le van agregando herramientas con nuevas tecnologías que acortan el tiempo de la cirugía y facilitan al cirujano obtener mejores resultados.</p>
 
@@ -17,7 +14,6 @@ if(isset($_POST['numero'])){
 				<p><span>VASER:</span> Utiliza el ultrasonido que rompe las células grasas y fibras que están en el tejido graso superficial y profundo justo debajo de la piel para luego ser aspirado según la zona a tratar.</p>
 
 				<p><span>LIPO 4D</span> Se utiliza el equipo VASER para destruir la grasa, disminuir las estrías, facilitar al cirujano aspirar con mayor facilidad la grasa, menor dolor postoperatorio, y permite retracción de los tejidos facilitando que la piel pegue en profundidad.</p>
-				
 				<div id='visor-album' class='visor-album'>
 					<img class="visor-imagen" src="/img/cirugia-estetica/lipo1.jpg" alt="">
 					<img class="visor-imagen" src="/img/cirugia-estetica/lipo2.jpg" alt="">
@@ -48,16 +44,13 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: 7 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: Al 6ºto mes.</li>
 				</ul>
-			
 			</div>
 		<?php
 		break;
-			
 		case 1;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>Rinoplastia</h1>
-				
 				<p><span>Rinoplastia estética:</span></p>
 				<p>Cirugía en la que se resuelven principalmente los problemas estéticos de la nariz tales como la giba ósea, el hueso que sobresale del dorso de la nariz a semejanza de una joroba, las desviaciones hacia la derecha o izquierda de la totalidad de la nariz y las malformaciones congénitas como las secuelas del labio y paladar hendido, y asimismo otros factores genéticos o adquiridos por traumatismos y enfermedades.</p> 
 				<p><span>Rinoplastia funcional:</span></p>
@@ -71,7 +64,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-eye"></i> Efectos: 6 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: 10 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: Al 6ºto mes.</li>
-				</ul>			
+				</ul>
 			</div>
 		<?php
 		break;
@@ -114,7 +107,6 @@ if(isset($_POST['numero'])){
 			</div>
 		<?php
 		break;
-			
 		case 4;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
@@ -131,11 +123,10 @@ if(isset($_POST['numero'])){
 					<li><span>Toxina Botulínica A.</span></li>
 					<li><span>Vía endoscópica:</span> Por medio de un dispositivo con cámara, tomando como entrada el cuero cabelludo internamente en la frente hasta llegar por encima de la ceja y reafirmar el tejido con puntos internos levantando la ceja, no deja cicatriz visible pero puede llegar a caerse la cola de la ceja en menor tiempo (No especificado).</li>
 					<li><span>Cirugía de levantamiento (Pexia):</span> Levantamiento de la ceja por vía directa realizando una pequeña resección de piel por encima de la ceja. Contras: Deja cicatriz lineal que se puede cubrir con maquillajes. Y Beneficios: Tiene duración prolongada.</li>
-				</ul>	
+				</ul>
 			</div>
 		<?php
 		break;
-			
 		case 5;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
@@ -190,7 +181,7 @@ if(isset($_POST['numero'])){
 					<li><i class="fas fa-eye"></i> Efectos: Se logran ver a los 3 meses.</li>
 					<li><i class="fas fa-briefcase"></i> Reingreso Laboral: a los 5 días.</li>
 					<li><i class="far fa-check-circle"></i> Resultados: 6 meses.</li>
-				</ul>			
+				</ul>
 			</div>
 		<?php
 		break;
@@ -200,7 +191,6 @@ if(isset($_POST['numero'])){
 				<h1>LIFTING FACIAL</h1>
 				<p>Es la cirugía del rejuvenecimiento del tercio medio e inferior de la cara. Consiste en el tratamiento de los planos de la cara que han caído con el proceso de envejecimiento y se manifiesta con caída de la piel de las mejillas sobrepasando la mandíbula inferior dando un aspecto de mejillas de Perro, piel arrugada y flácida, pérdida de la grasa facial y reabsorción del hueso maxilar.</p>
 				<p>El procedimiento consiste en levantar (Lifting) la piel y grasa facial y reubicarla en zonas de soporte para dar un aspecto más juvenil y puede estar acompañado de injerto graso para armonizar aún más con resultados naturales. </p>
-				
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 4-8 Horas.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local y/ Anestesia General.</li>
@@ -212,7 +202,7 @@ if(isset($_POST['numero'])){
 				</ul>
 			</div>
 		<?php
-		break;		
+		break;
 		case 8;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
@@ -237,11 +227,9 @@ if(isset($_POST['numero'])){
 				<h1>LEVANTAMIENTO DE MAMAS (Pexia)</h1>
 				<p>Es la corrección de la mama mediante la elevación. Causas: Ligamentos que sostienen la mama están sobrecargados por una mama voluminosa o pérdida del volumen y flacidez después del embarazo o pérdida de peso importante.</p>
 				<p>Se armoniza: El exceso de piel, el complejo areola/pezón se reubica según la marcación o dibujo que se realice antes de la cirugía y puede estar combinada con otras técnicas de reconstrucción.</p>
-				
 				<div id='visor-album' class='visor-album'>
 					<img class="visor-imagen-sola" src="/img/cirugia-estetica/ReduccionMamas.jpg" alt="">
 				</div>
-				
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 2-3 Horas.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
@@ -263,26 +251,23 @@ if(isset($_POST['numero'])){
 				<p>Es la corrección mediante la elevación de los tejidos y reducción del volumen de la mama, que busca la proyección, volumen adecuado y una cosmética que sea agradable visualmente.</p>
 				<p>Causas principales que aumentan el volumen de la mama: hormonales: Embarazo, obesidad, genética...</p>
 				<p><span>Objetivos:</span> Se armoniza la mama y se trata el exceso de piel, el complejo areola/pezón se reubica según la marcación o dibujo que se realice antes de la cirugía.</p>
-								
 				<h2>AUMENTO DE MAMAS</h2>
 				<p>La cirugía consiste en darle volumen a la mama, la cual puede ser con implantes que se pueden indicar por distintas vías, ya sea alrededor de la areola, submamaria (debajo de la mama) o axilar y que pueden variar las zonas en donde se deje el implante, ya sea detrás de la glándula mamaria, detrás del músculo, detrás de la fascia del músculo o combinado.</p>
 				<p><span>Objetivos:</span> Volumen, proyección y mejorar la estética de la mama.</p>
-				
 				<div id='visor-album' class='visor-album'>
 					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas3.jpg" alt="">
 					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas1.jpg" alt="">
-					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas2.jpg" alt="">			
+					<img class="visor-imagen" src="/img/cirugia-estetica/aumentoMamas2.jpg" alt="">
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
 							<i class="dots fas fa-circle"></i>
 							<i class="dots far fa-circle"></i>
-							<i class="dots far fa-circle"></i>		
+							<i class="dots far fa-circle"></i>
 						</div>
 						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
 					</div>
 				</div>
-				
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 2-6 Horas.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
@@ -318,23 +303,20 @@ if(isset($_POST['numero'])){
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
 				<h1>ABDOMINOPLASTIA</h1>
-				<p>La cirugía del abdomen, consiste en la corrección de tres puntos importantes: 
-					
+				<p>La cirugía del abdomen, consiste en la corrección de tres puntos importantes:
 					<ol>
 						<li>La flacidez de la piel.</li>
 						<li>La debilidad de los músculos rectos abdominales que se separan por muchos factores (embarazo, obesidad principalmente).</li>
 						<li>El grado de adiposidad o grasa concentrada en el abdomen.</li>
 					</ol>
-					
 				<p>Puede haber variantes en la cirugía reconstructiva, la dermolipectomía circular, dermolipectomia reversa que se realiza entre el abdomen y el tórax o una cicatriz debajo del bikini.</p>
 				<p><span>Beneficios de la cirugía:</span> Recupera la armonía del abdomen y permite que visualmente sea agradable mejorando también el autoestima.</p>
-				
 				<div id='visor-album' class='visor-album'>
 					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo1.jpg" alt="">
 					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo2.jpg" alt="">
-					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo3.jpg" alt="">	
-					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo4.jpg" alt="">	
-					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo5.jpg" alt="">	
+					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo3.jpg" alt="">
+					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo4.jpg" alt="">
+					<img class="visor-imagen" src="/img/cirugia-estetica/Lipo-dermo5.jpg" alt="">
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
@@ -347,7 +329,6 @@ if(isset($_POST['numero'])){
 						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
 					</div>
 				</div>
-				
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 2-3 Horas.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
@@ -366,13 +347,11 @@ if(isset($_POST['numero'])){
 				<h1>AUMENTO DE GLUTEOS</h1>
 				<p>Buscar la armonía en el glúteo es un tema amplio que depende mucho de los canones de belleza que tenga cada uno, el cual depende de la cultura, genética, región y buena salud para exponerse a la cirugía.</p>
 				<p><span>Beneficios de la cirugía:</span> Buscar el volumen y la proyección del glúteo. Existen dos formas 1. Relleno con grasa autóloga (Lipofilling) y 2. Con implantes para glúteos.</p>
-				
 				<div id='visor-album' class='visor-album'>
 					<img class="visor-imagen" src="/img/cirugia-estetica/Gluteos.jpg" alt="">
 					<img class="visor-imagen" src="/img/cirugia-estetica/Gluteos2.jpg" alt="">
-					<img class="visor-imagen" src="/img/cirugia-estetica/Gluteos3.jpg" alt="">	
-					<img class="visor-imagen" src="/img/cirugia-estetica/Gluteos4.jpg" alt="">	
-						
+					<img class="visor-imagen" src="/img/cirugia-estetica/Gluteos3.jpg" alt="">
+					<img class="visor-imagen" src="/img/cirugia-estetica/Gluteos4.jpg" alt="">
 					<div class="botones-visor">
 						<button id="btn-menos"><i class="btn-visor fas fa-caret-left"></i></button>
 						<div class="dots-contenedor">
@@ -380,12 +359,10 @@ if(isset($_POST['numero'])){
 							<i class="dots far fa-circle"></i>
 							<i class="dots far fa-circle"></i>
 							<i class="dots far fa-circle"></i>
-							
 						</div>
 						<button id="btn-mas"><i class="vtn-visor fas fa-caret-right"></i></button>
 					</div>
 				</div>
-				
 				<ul>
 					<li><i class="far fa-clock"></i> Tiempo: 2-3 Horas.</li>
 					<li><i class="fas fa-tint"></i> Anestesia: Local/General.</li>
@@ -397,7 +374,7 @@ if(isset($_POST['numero'])){
 				</ul>
 			</div>
 		<?php
-		break;	
+		break;
 		case 14;
 		?>
 			<div class="cirugia-seccion-contenedor-seleccionado">
@@ -409,9 +386,8 @@ if(isset($_POST['numero'])){
 				<p><span>Beneficios de la cirugía:</span> La persona se va a sentir liviana, mejor visualmente, y debe continuar con un estilo de vida sano.</p>
 			</div>
 		<?php
-		break;	
+		break;
 	}
 }else {
 	echo "Funciona AJAX pero no el swicht o el get";
 }
-	
